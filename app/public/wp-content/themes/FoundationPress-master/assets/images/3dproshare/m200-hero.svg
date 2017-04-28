@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="988px" height="991px" viewBox="0 0 988 991" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>m200-hero</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="M200-landing-page" transform="translate(-22.000000, -87.000000)">
+            <g id="m200-hero" transform="translate(-64.000000, 12.000000)">
+                <g id="Polygons" stroke="#E0E3E7" stroke-width="2">
+                    <path d="M559,201.082392 L826.228103,311.771897 L936.917608,579 L826.228103,846.228103 L559,956.917608 L291.771897,846.228103 L181.082392,579 L291.771897,311.771897 L559,201.082392 Z" id="Polygon-3" transform="translate(559.000000, 579.000000) rotate(21.000000) translate(-559.000000, -579.000000) "></path>
+                    <path d="M576,80.0823922 L926.666703,225.333297 L1071.91761,576 L926.666703,926.666703 L576,1071.91761 L225.333297,926.666703 L80.0823922,576 L225.333297,225.333297 L576,80.0823922 Z" id="Polygon-3" transform="translate(576.000000, 576.000000) rotate(-10.000000) translate(-576.000000, -576.000000) "></path>
+                    <path d="M576.5,261.082392 L799.533929,353.466071 L891.917608,576.5 L799.533929,799.533929 L576.5,891.917608 L353.466071,799.533929 L261.082392,576.5 L353.466071,353.466071 L576.5,261.082392 Z" id="Polygon-3" transform="translate(576.500000, 576.500000) rotate(-3.000000) translate(-576.500000, -576.500000) "></path>
+                </g>
+                <g id="Group-2" transform="translate(157.000000, 75.000000)">
+                    <g id="Dot" transform="translate(0.000000, 204.000000)">
+                        <g id="Group">
+                            <circle id="Oval" fill="#E0E3E7" cx="14" cy="14" r="14"></circle>
+                            <circle id="Oval" fill="#BEC1C5" cx="14" cy="14" r="8"></circle>
+                        </g>
+                    </g>
+                    <g id="Dot" transform="translate(230.000000, 155.000000)">
+                        <g id="Group">
+                            <circle id="Oval" fill="#E0E3E7" cx="14" cy="14" r="14"></circle>
+                            <circle id="Oval" fill="#BEC1C5" cx="14" cy="14" r="8"></circle>
+                        </g>
+                    </g>
+                    <g id="Dot" transform="translate(43.000000, 639.000000)">
+                        <g id="Group">
+                            <circle id="Oval" fill="#E0E3E7" cx="14" cy="14" r="14"></circle>
+                            <circle id="Oval" fill="#BEC1C5" cx="14" cy="14" r="8"></circle>
+                        </g>
+                    </g>
+                    <g id="Dot" transform="translate(637.000000, 701.000000)">
+                        <g id="Group">
+                            <circle id="Oval" fill="#E0E3E7" cx="14" cy="14" r="14"></circle>
+                            <circle id="Oval" fill="#BEC1C5" cx="14" cy="14" r="8"></circle>
+                        </g>
+                    </g>
+                    <g id="Dot" transform="translate(889.000000, 402.000000)">
+                        <g id="Group">
+                            <circle id="Oval" fill="#E0E3E7" cx="14" cy="14" r="14"></circle>
+                            <circle id="Oval" fill="#BEC1C5" cx="14" cy="14" r="8"></circle>
+                        </g>
+                    </g>
+                    <g id="Dot" transform="translate(319.000000, 0.000000)">
+                        <g id="Group">
+                            <circle id="Oval" fill="#E0E3E7" cx="14" cy="14" r="14"></circle>
+                            <circle id="Oval" fill="#BEC1C5" cx="14" cy="14" r="8"></circle>
+                        </g>
+                    </g>
+                    <g id="Dot" transform="translate(398.000000, 173.000000)">
+                        <g id="Group">
+                            <circle id="Oval" fill="#E0E3E7" cx="10.5" cy="10.5" r="10.5"></circle>
+                            <circle id="Oval" fill="#BEC1C5" cx="10.5" cy="10.5" r="6"></circle>
+                        </g>
+                    </g>
+                    <g id="Dot" transform="translate(742.000000, 335.000000)">
+                        <g id="Group">
+                            <circle id="Oval" fill="#E0E3E7" cx="10.5" cy="10.5" r="10.5"></circle>
+                            <circle id="Oval" fill="#BEC1C5" cx="10.5" cy="10.5" r="6"></circle>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

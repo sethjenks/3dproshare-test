@@ -1,0 +1,199 @@
+//Hero
+
+.inventure-hero{
+  @include grid-row-size(expand);
+  background: url('../images/3dproshare/inventure-hero-bg.png') bottom center;
+  background-color: $black;
+  background-repeat: repeat-x;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: $section-padding;
+  
+  
+
+  header{
+  @include grid-row-size(expand);
+  @include grid-column();
+    
+  }
+}
+
+
+
+.inventure-hero__container{
+  position: relative;
+  overflow: hidden;
+}
+
+.inventure-hero__product-image{
+   
+}
+
+.inventure-hero__content{
+  color: $white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  
+}
+
+
+
+//Materials Section
+
+.inventure-materials{
+  @include grid-row-size(expand);
+  background: url('../images/3dproshare/materials-bg.png') center center;
+  background-repeat: repeat-x;
+  min-height: 27rem;
+  display: flex;
+  padding: 4rem 0;
+}
+
+
+
+//Materials Section
+
+.inventure-dss{
+  
+  background: url('../images/3dproshare/dds-bg.svg') center center;
+  background-repeat: repeat-x;
+  min-height: 27rem;
+  display: flex;
+  padding: 4rem 0;
+}
+
+.inventure-dss__content{
+  @include grid-column(4);
+  @include grid-column-position(1);
+  
+}
+
+.inventure-dss__image{
+  @include grid-column(6);
+}
+
+.inventure-dss__example{
+  @include grid-column(12);
+}
+
+.inventure-dss__content-top-row{
+  @include grid-row();
+  margin-bottom: 5rem;
+}
+.inventure-dss__content-bottom-row{
+  @include grid-row-size(expand);
+  
+}
+
+
+//Features
+
+.inventure-features{
+  padding: 4rem 0;
+  background: url('../images/3dproshare/m300-hero-bg.svg') top center;
+  background-repeat: repeat-x;
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: repeat-x;
+  background-position: top;
+}
+
+.inventure-features__top-row{
+  @include grid-row();
+}
+
+.inventure-features__bottom-row{
+  @include grid-row();
+  
+}
+
+.inventure-features__top-row{
+  @include grid-row();
+}
+
+.inventure-features__top-row-content{
+  @include grid-column(4);
+  @include grid-column-position(1);
+  padding: $section-padding;
+}
+.inventure-features__top-row-image{
+  @include grid-column(6);
+  padding: $section-padding;
+}
+
+.inventure-features__bottom-row-content{
+    @include grid-column(4);
+  @include grid-column-position(-3);
+  padding: $section-padding;
+  
+}
+.inventure-features__bottom-row-image{
+    @include grid-column(4);
+  @include grid-column-position(1);
+  padding: $section-padding;
+  
+}
+
+.inventure-features__bottom-row-content li,
+.inventure-features__top-row-content li{
+  list-style: none;
+  
+} 
+
+//More in the box
+.inventure-more {
+  @include grid-row(expanded)
+  padding: 4rem 0;
+  background: url('../images/3dproshare/inventure-print-example.png') top center;
+  background-repeat: repeat-x;
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: repeat-x;
+  background-position: top;
+  
+}
+
+.inventure-more__content{
+     @include breakpoint(small){
+      @include grid-column(12);
+    
+    }
+    @include breakpoint(medium) {
+      @include grid-column(4);
+      margin: 1.5rem 0;
+    }
+  }
+
+
+  .inventure-more__product-image { 
+    @include breakpoint(small){
+      @include grid-column(12);
+    
+    }
+    @include breakpoint(medium) {
+      @include grid-column(8);
+      margin: 1.5rem 0;
+    }
+  }
+
+.inventure-more_sub-text{
+      @include grid-column-position(center);
+      @include breakpoint(small){
+      @include grid-column(12);
+    
+    }
+    @include breakpoint(medium) {
+      @include grid-column(5);
+      @include grid-column-offset(5);
+      // margin: 1.5rem 0;
+    }
+  }
+
+  .inventure-more__header{
+    span{
+      color: map-get($proshare-palette, primary);
+    }
+  }

@@ -1,9 +1,11 @@
 // Page header
-#front-hero {
+#m200-front-hero {
+  background-color:rgba(255, 255, 255, 0.5);
   display: flex;
   .marketing {
     @include grid-row();
     max-width: 55rem;
+    
   }
 
   @include breakpoint(small) {
@@ -18,39 +20,12 @@
   }
 
   @include breakpoint(medium) {
-    background: url('../images/3dproshare/m300_ekosystem.svg') bottom center, url('../images/3dproshare/m200-hero.svg') bottom center;
+    background: url('../images/3dproshare/m200-hero.svg') bottom center;
     background-size: cover;
     background-position: center;
     // height: rem-calc(685);
     padding: 4rem 0;
     // margin: 0 0 rem-calc(72);
-  }
-
-  #watch {
-    @include breakpoint(small) {
-      @include grid-column(7);
-      @include grid-column-position(-5);
-    }
-
-    @include breakpoint(medium) {
-      @include grid-column(12);
-      @include grid-column-position(0);
-    }
-
-    section {
-      display: inline;
-    }
-
-    a {
-      color: #B4C9D1;
-      cursor: pointer;
-      font-weight: 400;
-      margin-right: rem-calc(20);
-    }
-
-    a:hover {
-      color: #fff;
-    }
   }
 
   .tagline {
@@ -72,7 +47,7 @@
 
   h1 {
     color: map-get($proshare-palette, primary);
-    font-weight: 800;
+    font-family: Graphie-Bold;
     text-transform: uppercase;
     text-shadow: 0 4px 5px rgba(0,0,0,0.42);
 
@@ -87,21 +62,21 @@
 
   h4 {
     color: #333;
-    font-weight: 300;
+    font-weight: 600;
     font-size: 1.3125rem;
   }
 
   h5{
     color: #fff;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 2rem;
     line-height: 0;
     text-shadow: 0 4px 5px rgba(0,0,0,0.42);
   }
 
-  .download {
-    margin-top: rem-calc(20);
-  }
+  // .download {
+  //   margin-top: rem-calc(20);
+  // }
 
   .award-section{
     @include grid-row();
@@ -188,7 +163,7 @@
   
 
   header {
-    @include grid-column(12);
+    @include grid-column(10);
 
     h2 {
       font-weight: 300;
@@ -210,16 +185,21 @@
   }
 
   .product-image { 
+    @include breakpoint(small){
+      @include grid-column(12);
+      margin: 0;
+    }
+
     @include breakpoint(medium) {
       @include grid-column(7);
       margin: 1.5rem 0;
     }
   }
-  .copy,
+  .benefits-copy,
   {
     @include breakpoint(small) {
-      @include grid-column(4);
-      margin: 7rem 0;
+      @include grid-column(12);
+      margin: 4rem 0 0 0;
     }
 
     @include breakpoint(medium) {
@@ -245,82 +225,92 @@
       text-align: right;
     }
   }
+}
 
+.m200-peaks{
+    background: url('../images/3dproshare/graphic_peaks.svg') top center;
+    background-repeat: repeat-x;
+    min-height: 27rem;
+}
 
+.m200-peaks__description{
+@include breakpoint(small){
+  @include grid-column(12);
+  @include grid-column-position(0);
+  
+}
 
-  .why-foundation {
-    @include grid-row();
-    @include grid-column(12);
-    margin-top: 4rem;
+@include breakpoint(medium){
+  @include grid-column(3);
+  @include grid-column-position(0);
+  
   }
 }
 
-.peaks{
-    padding-top: 10rem;
-    background: url('../images/3dproshare/graphic_peaks.svg') bottom center;
-    background-repeat: repeat-x;
-    // background-position: center center;
-    min-height: 25rem;
-    margin-top: 7rem;
-}
+// .peaks-container{
+//   position: absolute;
+// }
 
-.peaks-description{
-  @include grid-column(3);
-  @include grid-column-position(0);
-  margin-top: 5rem;
-}
+// .peaks-description.workspace{
+//   top: -326px;
+//   left: 140px;
+// }
 
-.peaks-container{
-  position: absolute;
-}
+// .peaks-description.resolution{
+//   top: -243px;
+//   left: 72px;
+// }
+// .peaks-description.thickness{
+//   top: -230px;
+//   left: 56px;
 
-.peaks-description.workspace{
-  top: -326px;
-  left: 140px;
-}
+// }
+// .peaks-description.single-point{
+//   top: -204px;
+//   left: 85px;
+// }
 
-.peaks-description.resolution{
-  top: -243px;
-  left: 72px;
-}
-.peaks-description.thickness{
-  top: -230px;
-  left: 56px;
-
-}
-.peaks-description.single-point{
-  top: -204px;
-  left: 85px;
-}
-
-.top{
+.m200-top{
     @include grid-column();
     padding: 4rem 0;
     background-color: map-get($proshare-palette, primary);
     background-size: cover;
     background-position: bottom;
+    margin-top: -1px;
+    
+    header{
+      margin-bottom: 3rem;
+      margin-top: -8rem;
+    }
 
 }
 
-.top-description{
-  @include grid-column(3);
-  @include grid-column-position(2);
+.m200-top__description{
+  @include grid-column(2);
+  @include grid-column-position(3);
+  color: $white;
+  & > h1{
+    font-weight: 800;
+    line-height: rem-calc(48);
+    
+    span{
+      font-size: rem-calc(92);
+      line-height: rem-calc(88);
+    }
+  }
 }
 
-.top-description-2{
+.m200-top__description-2{
   @include grid-column(6);
   @include grid-column-position(-1);
+  color: $white;
+  
+  & > h3, h4, h5{
+    font-family: Graphie-SemiBold;
+  }
 }
 
-.button.primary{
-  border-radius: 40px;
-  background-color: map-get($proshare-palette, primary);
-  font-weight: 600;
-}
 
-.hero-button{
-  margin-top: 2rem;
-}
 
 
 .recognition{
@@ -338,48 +328,105 @@
 }
 
 .recognition-image{
-  @include grid-column(12);
+  @include grid-column(6);
+  @include grid-column-position(center);
+  img{
+    margin: 0 auto;
+  }
 }
 
 
 //Quality
 .quality {
-  @include grid-row();
-  @include grid-column(12);
-  padding-top: 4rem;
-  background-color: #F1F3F6;
-  background: url('../images/3dproshare/gray-bg.png') bottom center;
-  background-size: cover;
-  background-position: bottom;
-  height: rem-calc(500);
-  
+
+  @include breakpoint(small){
+    @include grid-row();
+    @include grid-column(12);
+    padding-top: 4rem;
+    padding-bottom: 32rem;
+    background-color: #F1F3F6;
+    background: url('../images/3dproshare/gray-bg.png') bottom center;
+    background-size: cover;
+    background-position: bottom;
+    height: rem-calc(500);
+  }
+
+  @include breakpoint(medium){
+    @include grid-row();
+    @include grid-column(12);
+    padding-top: 4rem;
+    padding-bottom: 0;
+    background-color: #F1F3F6;
+    background: url('../images/3dproshare/gray-bg.png') bottom center;
+    background-size: cover;
+    background-position: bottom;
+    height: rem-calc(500);
+   }    
 }
 
 .quality-content{
-  @include grid-row();
-  @include grid-column(5);
-  @include grid-column-position(0);
+
+    img{
+      margin-bottom: 2rem;
+    }
+
+    p{
+      color: $white;
+      font-weight: 600;
+    }
+
+    h1, h2, h3, h4{
+      color: map-get($proshare-palette, primary);
+    }
+
+  @include breakpoint(small){
+    @include grid-row();
+    @include grid-column(12);
+    @include grid-column-position(0);
+
+  }
+  @include breakpoint(medium){
+    @include grid-row();
+    @include grid-column(5);
+    @include grid-column-position(0);
+    }
 }
 
 .quality-bottom{
   @include grid-row();
   @include grid-column(12);
   padding-top: 4rem;
+  padding-bottom: 4rem;
   background-color: #1C252D;
   background-size: cover;
   background-position: bottom;
-  height: rem-calc(500);
+  min-height: rem-calc(500);
   
 }
 
-.quality-bottom-product-image{
-@include grid-column(7);
-@include grid-column-position(5);  
-margin-top: -30rem;
+.quality-bottom__product-image{
+  @include breakpoint(small){
+    @include grid-column(12);
+      @include grid-column-position(0);  
+      margin-top: -16rem;
+  }
+
+  @include breakpoint(medium){
+      @include grid-column(7);
+      @include grid-column-position(5);  
+      margin-top: -30rem;
+  }
+
 }
 
 .feature{
-  @include grid-column(4);
+
+  @include breakpoint(small){
+    @include grid-column(12);
+  }
+  @include breakpoint(medium){
+    @include grid-column(4);
+  }
   h2, h3, h4{
     color: map-get($proshare-palette, primary);
   }
@@ -390,10 +437,21 @@ margin-top: -30rem;
 }
 
 .materials-orbit{
+
+  @include breakpoint(small){
   @include grid-row();
   min-height: rem-calc(250);
-  padding: 4rem 0;
+  margin-top: 8rem;
   background-color: $light-gray;
+  }
+  @include breakpoint(medium){
+  @include grid-row();
+  min-height: rem-calc(250);
+  padding-top: 4rem;
+  background-color: $light-gray;
+  }
+
+
   
 }
 
@@ -418,16 +476,49 @@ margin-top: -30rem;
 
 .materials-orbit-title{
   padding-bottom: 2rem;
-}
-.materials-orbit-description{
-  @include grid-column(5);
-  @include grid-column-position(-1);
-  
+  margin-top: 2rem;
 }
 
+
+
+.materials-orbit-description{
+  @include breakpoint(small){
+    @include grid-column(12);
+    @include grid-column-position(0);
+    
+  }
+
+  @include breakpoint(medium){
+    @include grid-column(5);
+    @include grid-column-position(-1);
+    
+  }
+}
+
+.materials-orbit-description > *{
+  @include breakpoint(small){
+    text-align: center;
+  }
+  @include breakpoint(medium){
+    text-align: left;
+  }
+}
+
+
 .materials-orbit-image{
+@include breakpoint(small){
+  @include grid-column(12);
+  @include grid-column-position(0);
+  align: right;
+  margin-bottom: 2rem;
+}
+
+@include breakpoint(medium){
   @include grid-column(5);
   @include grid-column-position(2);
+  align: right;
+}
+
   
 }
 
@@ -447,33 +538,60 @@ margin-top: -30rem;
 
 .dimensions{
   @include grid-row();
+  margin-bottom: 3rem;
 }
 
 .dimensions-item{
   @include grid-column(3);
-  
+  display: flex;
+    img{
+      margin: 0 auto;
+    }
 }
+
+
 
 .specs{
   @include grid-row();
 }
 
 .section-1{
-  @include grid-column(4);
-  
+  @include breakpoint(small){
+    @include grid-column(12);
+    margin-bottom: 2rem;
+  }
+  @include breakpoint(medium){
+    @include grid-column(4);
+  } 
 }
 
 .section-2{
-  @include grid-column(8);
-  
+  @include breakpoint(small){
+    @include grid-column(12);
+  }
+  @include breakpoint(medium){
+    @include grid-column(8);
+  }   
 }
 
 .printing{
   @include grid-column(12);
 }
 
- .keys, .values, .printer, .temperature, .software, .electical{
-  @include grid-column(6);
+.keys, .values{
+  @include grid-column(12);
+}
+
+  .printer, .temperature, .software, .electical{
+  @include breakpoint(small){
+    @include grid-column(12);
+    margin-bottom: 2rem;
+    
+  }
+  @include breakpoint(medium){
+    @include grid-column(12);
+    
+  }   
   
 }
 

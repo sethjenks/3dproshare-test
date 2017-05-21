@@ -31,3 +31,82 @@
 [24-Apr-2017 23:51:30 UTC] WordPress database error Duplicate entry '1034' for key 'PRIMARY' for query INSERT INTO `wp_posts` (`post_author`, `post_date`, `post_date_gmt`, `post_content`, `post_content_filtered`, `post_title`, `post_excerpt`, `post_status`, `post_type`, `comment_status`, `ping_status`, `post_password`, `post_name`, `to_ping`, `pinged`, `post_modified`, `post_modified_gmt`, `post_parent`, `menu_order`, `post_mime_type`, `guid`, `ID`) VALUES (2, '2015-08-03 15:55:11', '2015-08-03 15:55:11', '', '', 'Order &ndash; August 3, 2015 @ 03:55 PM', '', 'wc-cancelled', 'shop_order', 'open', 'closed', 'order_55bf8edf6f4b5', 'order-aug-03-2015-0355-pm', '', '', '2015-08-03 15:55:11', '2015-08-03 15:55:11', 0, 0, '', 'http://www.3dproshare.com/?post_type=shop_order&amp;p=1034', 1034) made by WP_Import->dispatch, WP_Import->import, WP_Import->process_posts, wp_insert_post
 [24-Apr-2017 23:51:30 UTC] WordPress database error Duplicate entry '1518' for key 'PRIMARY' for query INSERT INTO `wp_posts` (`post_author`, `post_date`, `post_date_gmt`, `post_content`, `post_content_filtered`, `post_title`, `post_excerpt`, `post_status`, `post_type`, `comment_status`, `ping_status`, `post_password`, `post_name`, `to_ping`, `pinged`, `post_modified`, `post_modified_gmt`, `post_parent`, `menu_order`, `post_mime_type`, `guid`, `ID`) VALUES (1, '2016-04-05 19:12:39', '2016-04-05 19:12:39', '', '', 'emg3d', 'ATTN: Carol Carpenter\nRainbow Aviation Services\nN 930 Marguerite Ave \nCorning, CA 96021\n530/824-0644\n\nReferral code for the website http://www.electricmotorglider.com/\nCustomer receives M200 for $1850, and free side covers.\n\nWhen used, we send Carol the $100 referral credit.\n\n', 'publish', 'shop_coupon', 'closed', 'closed', '', 'emg3d', '', '', '2016-04-05 19:12:39', '2016-04-05 19:12:39', 0, 0, '', 'https://www.3dproshare.com/?post_type=shop_coupon&amp;p=1518', 1518) made by WP_Import->dispatch, WP_Import->import, WP_Import->process_posts, wp_insert_post
 [24-Apr-2017 23:51:31 UTC] WordPress database error Duplicate entry '1133' for key 'PRIMARY' for query INSERT INTO `wp_posts` (`post_author`, `post_date`, `post_date_gmt`, `post_content`, `post_content_filtered`, `post_title`, `post_excerpt`, `post_status`, `post_type`, `comment_status`, `ping_status`, `post_password`, `post_name`, `to_ping`, `pinged`, `post_modified`, `post_modified_gmt`, `post_parent`, `menu_order`, `post_mime_type`, `guid`, `ID`) VALUES (1, '2015-10-09 16:14:01', '2015-10-09 16:14:01', '', '', 'Order &ndash; October 9, 2015 @ 04:14 PM', '', 'wc-cancelled', 'shop_order', 'open', 'closed', 'order_5617e7c921c69', 'order-oct-09-2015-0414-pm', '', '', '2015-10-09 16:14:01', '2015-10-09 16:14:01', 0, 0, '', 'https://www.3dproshare.com/?post_type=shop_order&amp;p=1133', 1133) made by WP_Import->dispatch, WP_Import->import, WP_Import->process_posts, wp_insert_post
+[02-May-2017 02:59:46 UTC] PHP Warning:  array_search() expects parameter 2 to be array, boolean given in /app/public/wp-content/plugins/child-theme-configurator/includes/classes/CSS.php on line 502
+[02-May-2017 02:59:46 UTC] PHP Stack trace:
+[02-May-2017 02:59:46 UTC] PHP   1. {main}() /app/public/wp-admin/admin-ajax.php:0
+[02-May-2017 02:59:46 UTC] PHP   2. do_action() /app/public/wp-admin/admin-ajax.php:91
+[02-May-2017 02:59:46 UTC] PHP   3. WP_Hook->do_action() /app/public/wp-includes/plugin.php:453
+[02-May-2017 02:59:46 UTC] PHP   4. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:323
+[02-May-2017 02:59:46 UTC] PHP   5. ChildThemeConfigurator::query() /app/public/wp-includes/class-wp-hook.php:298
+[02-May-2017 02:59:46 UTC] PHP   6. ChildThemeConfiguratorAdmin->ajax_query_css() /app/public/wp-content/plugins/child-theme-configurator/includes/classes/Core.php:84
+[02-May-2017 02:59:46 UTC] PHP   7. ChildThemeConfiguratorAdmin->get() /app/public/wp-content/plugins/child-theme-configurator/includes/classes/Admin.php:309
+[02-May-2017 02:59:46 UTC] PHP   8. ChildThemeConfiguratorCSS->get_prop() /app/public/wp-content/plugins/child-theme-configurator/includes/classes/Admin.php:139
+[02-May-2017 02:59:46 UTC] PHP   9. ChildThemeConfiguratorCSS->denorm_dict_qs() /app/public/wp-content/plugins/child-theme-configurator/includes/classes/CSS.php:301
+[02-May-2017 02:59:46 UTC] PHP  10. ChildThemeConfiguratorCSS->get_dict_id() /app/public/wp-content/plugins/child-theme-configurator/includes/classes/CSS.php:1939
+[02-May-2017 02:59:46 UTC] PHP  11. ChildThemeConfiguratorCSS->lookup_dict_value() /app/public/wp-content/plugins/child-theme-configurator/includes/classes/CSS.php:491
+[02-May-2017 02:59:46 UTC] PHP  12. array_search() /app/public/wp-content/plugins/child-theme-configurator/includes/classes/CSS.php:502
+[02-May-2017 02:59:46 UTC] PHP Warning:  preg_grep() expects parameter 2 to be array, boolean given in /app/public/wp-content/plugins/child-theme-configurator/includes/classes/CSS.php on line 1940
+[02-May-2017 02:59:46 UTC] PHP Stack trace:
+[02-May-2017 02:59:46 UTC] PHP   1. {main}() /app/public/wp-admin/admin-ajax.php:0
+[02-May-2017 02:59:46 UTC] PHP   2. do_action() /app/public/wp-admin/admin-ajax.php:91
+[02-May-2017 02:59:46 UTC] PHP   3. WP_Hook->do_action() /app/public/wp-includes/plugin.php:453
+[02-May-2017 02:59:46 UTC] PHP   4. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:323
+[02-May-2017 02:59:46 UTC] PHP   5. ChildThemeConfigurator::query() /app/public/wp-includes/class-wp-hook.php:298
+[02-May-2017 02:59:46 UTC] PHP   6. ChildThemeConfiguratorAdmin->ajax_query_css() /app/public/wp-content/plugins/child-theme-configurator/includes/classes/Core.php:84
+[02-May-2017 02:59:46 UTC] PHP   7. ChildThemeConfiguratorAdmin->get() /app/public/wp-content/plugins/child-theme-configurator/includes/classes/Admin.php:309
+[02-May-2017 02:59:46 UTC] PHP   8. ChildThemeConfiguratorCSS->get_prop() /app/public/wp-content/plugins/child-theme-configurator/includes/classes/Admin.php:139
+[02-May-2017 02:59:46 UTC] PHP   9. ChildThemeConfiguratorCSS->denorm_dict_qs() /app/public/wp-content/plugins/child-theme-configurator/includes/classes/CSS.php:301
+[02-May-2017 02:59:46 UTC] PHP  10. preg_grep() /app/public/wp-content/plugins/child-theme-configurator/includes/classes/CSS.php:1940
+[02-May-2017 02:59:46 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-content/plugins/child-theme-configurator/includes/classes/CSS.php on line 1941
+[02-May-2017 02:59:46 UTC] PHP Stack trace:
+[02-May-2017 02:59:46 UTC] PHP   1. {main}() /app/public/wp-admin/admin-ajax.php:0
+[02-May-2017 02:59:46 UTC] PHP   2. do_action() /app/public/wp-admin/admin-ajax.php:91
+[02-May-2017 02:59:46 UTC] PHP   3. WP_Hook->do_action() /app/public/wp-includes/plugin.php:453
+[02-May-2017 02:59:46 UTC] PHP   4. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:323
+[02-May-2017 02:59:46 UTC] PHP   5. ChildThemeConfigurator::query() /app/public/wp-includes/class-wp-hook.php:298
+[02-May-2017 02:59:46 UTC] PHP   6. ChildThemeConfiguratorAdmin->ajax_query_css() /app/public/wp-content/plugins/child-theme-configurator/includes/classes/Core.php:84
+[02-May-2017 02:59:46 UTC] PHP Warning:  asort() expects parameter 1 to be array, boolean given in /app/public/wp-content/plugins/child-theme-configurator/includes/classes/CSS.php on line 314
+[02-May-2017 02:59:46 UTC] PHP   7. ChildThemeConfiguratorAdmin->get() /app/public/wp-content/plugins/child-theme-configurator/includes/classes/Admin.php:309
+[02-May-2017 02:59:46 UTC] PHP Stack trace:
+[02-May-2017 02:59:46 UTC] PHP   8. ChildThemeConfiguratorCSS->get_prop() /app/public/wp-content/plugins/child-theme-configurator/includes/classes/Admin.php:139
+[02-May-2017 02:59:46 UTC] PHP   9. ChildThemeConfiguratorCSS->denorm_dict_qs() /app/public/wp-content/plugins/child-theme-configurator/includes/classes/CSS.php:301
+[02-May-2017 02:59:46 UTC] PHP   1. {main}() /app/public/wp-admin/admin-ajax.php:0
+[02-May-2017 02:59:46 UTC] PHP   2. do_action() /app/public/wp-admin/admin-ajax.php:91
+[02-May-2017 02:59:46 UTC] PHP   3. WP_Hook->do_action() /app/public/wp-includes/plugin.php:453
+[02-May-2017 02:59:46 UTC] PHP   4. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:323
+[02-May-2017 02:59:46 UTC] PHP   5. ChildThemeConfigurator::query() /app/public/wp-includes/class-wp-hook.php:298
+[02-May-2017 02:59:46 UTC] PHP   6. ChildThemeConfiguratorAdmin->ajax_query_css() /app/public/wp-content/plugins/child-theme-configurator/includes/classes/Core.php:84
+[02-May-2017 02:59:46 UTC] PHP   7. ChildThemeConfiguratorAdmin->get() /app/public/wp-content/plugins/child-theme-configurator/includes/classes/Admin.php:309
+[02-May-2017 02:59:46 UTC] PHP Warning:  array_values() expects parameter 1 to be array, boolean given in /app/public/wp-content/plugins/child-theme-configurator/includes/classes/CSS.php on line 1949
+[02-May-2017 02:59:46 UTC] PHP   8. ChildThemeConfiguratorCSS->get_prop() /app/public/wp-content/plugins/child-theme-configurator/includes/classes/Admin.php:139
+[02-May-2017 02:59:46 UTC] PHP Stack trace:
+[02-May-2017 02:59:46 UTC] PHP   9. asort() /app/public/wp-content/plugins/child-theme-configurator/includes/classes/CSS.php:314
+[02-May-2017 02:59:46 UTC] PHP   1. {main}() /app/public/wp-admin/admin-ajax.php:0
+[02-May-2017 02:59:46 UTC] PHP Warning:  array_flip() expects parameter 1 to be array, boolean given in /app/public/wp-content/plugins/child-theme-configurator/includes/classes/CSS.php on line 318
+[02-May-2017 02:59:46 UTC] PHP   2. do_action() /app/public/wp-admin/admin-ajax.php:91
+[02-May-2017 02:59:46 UTC] PHP Stack trace:
+[02-May-2017 02:59:46 UTC] PHP   3. WP_Hook->do_action() /app/public/wp-includes/plugin.php:453
+[02-May-2017 02:59:46 UTC] PHP   1. {main}() /app/public/wp-admin/admin-ajax.php:0
+[02-May-2017 02:59:46 UTC] PHP   4. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:323
+[02-May-2017 02:59:46 UTC] PHP   2. do_action() /app/public/wp-admin/admin-ajax.php:91
+[02-May-2017 02:59:46 UTC] PHP   3. WP_Hook->do_action() /app/public/wp-includes/plugin.php:453
+[02-May-2017 02:59:46 UTC] PHP   5. ChildThemeConfigurator::query() /app/public/wp-includes/class-wp-hook.php:298
+[02-May-2017 02:59:46 UTC] PHP   4. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:323
+[02-May-2017 02:59:46 UTC] PHP   6. ChildThemeConfiguratorAdmin->ajax_query_css() /app/public/wp-content/plugins/child-theme-configurator/includes/classes/Core.php:84
+[02-May-2017 02:59:46 UTC] PHP   5. ChildThemeConfigurator::query() /app/public/wp-includes/class-wp-hook.php:298
+[02-May-2017 02:59:46 UTC] PHP   7. ChildThemeConfiguratorAdmin->get() /app/public/wp-content/plugins/child-theme-configurator/includes/classes/Admin.php:309
+[02-May-2017 02:59:46 UTC] PHP   6. ChildThemeConfiguratorAdmin->ajax_query_css() /app/public/wp-content/plugins/child-theme-configurator/includes/classes/Core.php:84
+[02-May-2017 02:59:46 UTC] PHP   8. ChildThemeConfiguratorCSS->get_prop() /app/public/wp-content/plugins/child-theme-configurator/includes/classes/Admin.php:139
+[02-May-2017 02:59:46 UTC] PHP   7. ChildThemeConfiguratorAdmin->get() /app/public/wp-content/plugins/child-theme-configurator/includes/classes/Admin.php:309
+[02-May-2017 02:59:46 UTC] PHP   9. ChildThemeConfiguratorCSS->denorm_dict_qs() /app/public/wp-content/plugins/child-theme-configurator/includes/classes/CSS.php:298
+[02-May-2017 02:59:46 UTC] PHP   8. ChildThemeConfiguratorCSS->get_prop() /app/public/wp-content/plugins/child-theme-configurator/includes/classes/Admin.php:139
+[02-May-2017 02:59:46 UTC] PHP  10. array_values() /app/public/wp-content/plugins/child-theme-configurator/includes/classes/CSS.php:1949
+[02-May-2017 02:59:46 UTC] PHP   9. array_flip() /app/public/wp-content/plugins/child-theme-configurator/includes/classes/CSS.php:318
+[05-May-2017 05:25:34 UTC] WordPress database error Duplicate key name 'attribute_name' for query ALTER TABLE wp_woocommerce_attribute_taxonomies ADD KEY `attribute_name` (`attribute_name`(20)) made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Install::check_version, WC_Install::install, WC_Install::create_tables, dbDelta
+[05-May-2017 05:25:34 UTC] WordPress database error Duplicate key name 'download_order_key_product' for query ALTER TABLE wp_woocommerce_downloadable_product_permissions ADD KEY `download_order_key_product` (`product_id`,`order_id`,`order_key`(16),`download_id`) made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Install::check_version, WC_Install::install, WC_Install::create_tables, dbDelta
+[05-May-2017 05:25:34 UTC] WordPress database error Duplicate key name 'meta_key' for query ALTER TABLE wp_woocommerce_order_itemmeta ADD KEY `meta_key` (`meta_key`(32)) made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Install::check_version, WC_Install::install, WC_Install::create_tables, dbDelta
+[05-May-2017 05:25:34 UTC] WordPress database error Duplicate key name 'tax_rate_state' for query ALTER TABLE wp_woocommerce_tax_rates ADD KEY `tax_rate_state` (`tax_rate_state`(2)) made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Install::check_version, WC_Install::install, WC_Install::create_tables, dbDelta
+[05-May-2017 05:25:34 UTC] WordPress database error Duplicate key name 'tax_rate_class' for query ALTER TABLE wp_woocommerce_tax_rates ADD KEY `tax_rate_class` (`tax_rate_class`(10)) made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Install::check_version, WC_Install::install, WC_Install::create_tables, dbDelta
+[05-May-2017 05:25:34 UTC] WordPress database error Duplicate key name 'location_type_code' for query ALTER TABLE wp_woocommerce_tax_rate_locations ADD KEY `location_type_code` (`location_type`(10),`location_code`(20)) made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Install::check_version, WC_Install::install, WC_Install::create_tables, dbDelta
+[05-May-2017 05:25:34 UTC] WordPress database error Duplicate key name 'location_type_code' for query ALTER TABLE wp_woocommerce_shipping_zone_locations ADD KEY `location_type_code` (`location_type`(10),`location_code`(20)) made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Install::check_version, WC_Install::install, WC_Install::create_tables, dbDelta
+[05-May-2017 05:25:34 UTC] WordPress database error Duplicate key name 'meta_key' for query ALTER TABLE wp_woocommerce_payment_tokenmeta ADD KEY `meta_key` (`meta_key`(32)) made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Install::check_version, WC_Install::install, WC_Install::create_tables, dbDelta

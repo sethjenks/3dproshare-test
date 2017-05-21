@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="112px" height="112px" viewBox="0 0 112 112" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>raft</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="raft" stroke="#FFFFFF" stroke-width="1.4">
+            <g id="Group-2" transform="translate(10.000000, 19.000000)">
+                <path d="M47.5,26.7961812 L84.5641867,46.8821937 L47.5,68.1925456 L10.4358133,46.8821937 L47.5,26.7961812 Z" id="Rectangle-27-Copy"></path>
+                <path d="M47.5,4.79618124 L84.5641867,24.8821937 L47.5,46.1925456 L10.4358133,24.8821937 L47.5,4.79618124 Z" id="Rectangle-27-Copy-2" opacity="0.400000006"></path>
+                <path d="M46.5,30.7964664 L74.5659091,46.030067 L46.5,62.1922291 L18.4340909,46.030067 L46.5,30.7964664 Z" id="Rectangle-27-Copy"></path>
+                <path d="M46.5,10.7964664 L74.5659091,26.030067 L46.5,42.1922291 L18.4340909,26.030067 L46.5,10.7964664 Z" id="Rectangle-27-Copy-3" opacity="0.400000006"></path>
+                <path d="M47,21.7944882 L92.5537889,46.249142 L47,72.1944249 L1.44621106,46.249142 L47,21.7944882 Z" id="Rectangle-27-Copy"></path>
+                <path d="M47,0.794488208 L92.5537889,25.249142 L47,51.1944249 L1.44621106,25.249142 L47,0.794488208 Z" id="Rectangle-27-Copy-4" opacity="0.400000006"></path>
+            </g>
+        </g>
+    </g>
+</svg>

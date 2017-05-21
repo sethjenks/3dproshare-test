@@ -4,100 +4,148 @@ Template Name: Front
 */
 get_header(); ?>
 
-<header id="front-hero" role="banner">
-	<div class="marketing">
-		<div class="tagline">
-			<h1><?php bloginfo( 'name' ); ?></h1>
-			<h4 class="subheader"><?php bloginfo( 'description' ); ?></h4>
-			<a role="button" class="download large button sites-button hide-for-small-only" href="https://github.com/olefredrik/foundationpress">Download FoundationPress</a>
+<section class="front-hero">
+	<div class="front-hero__continer">	
+		<div class="front-hero__content">
+			<header>
+				<h5 class="front-hero__headline-label">Limited Time Special Offer</h5>
+				<h2></h2>
+				<h1 class="front-hero__headline">15% off <span>on M200</span></h1>
+				<h2 class="front-hero__sub-head">With <span>Free Shipping</span></h2>
+				<p>Hurry, before this offer ends on May 15th</p>
+				<ul class="front-hero_offers">
+					<li>
+						<a href="3d-printers/m200/zortrax-m200/">
+							<div class="row">
+								<div class="front-hero__link-box-item small-10 columns">
+									<h5>Zortrax M200</h5>
+									<p><span class="text-strikethrough">$1,999.00</span> <span class="text-highlight">$1,650.00</span></p>
+								</div>
+								<div class="small-2 columns">
+									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/3dproshare/chevron-dark.png" alt="responsive">
+								</div>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="3d-printers/m200/zortrax-m200-plus/">
+							<div class="row">
+								<div class="front-hero__link-box-item small-10 columns">
+									<h5>Zortrax M200 Plus</h5>
+									<p><span class="text-strikethrough">$2,050.00</span> <span class="text-highlight">$1,700.00</span></p>
+								</div>
+								<div class="small-2 columns">
+									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/3dproshare/chevron-dark.png" alt="responsive">
+								</div>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="3d-printers/m200/zortrax-m200-pro/">
+							<div class="row">
+								<div class="front-hero__link-box-item small-10 columns">
+									<h5>Zortrax M200 Pro</h5>
+									<p><span class="text-strikethrough">$2,100.00</span> <span class="text-highlight">$1,750.00</span></p>
+								</div>
+								<div class="small-2 columns">
+									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/3dproshare/chevron-dark.png" alt="responsive">
+								</div>
+							</div>
+						</a>				
+      		</li>
+				</ul>
+				<div>
+		     	<a href="3d-printers/m200/">Learn more about the Zortrax M200 →</a>
+		    </div>
+			</header>
 		</div>
-
-		<div id="watch">
-			<section id="stargazers">
-				<a href="https://github.com/olefredrik/foundationpress">1.5k stargazers</a>
-			</section>
-			<section id="twitter">
-				<a href="https://twitter.com/olefredrik">@olefredrik</a>
-			</section>
-		</div>
+		<div class="front-hero__product-image">
+			<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/3dproshare/m200-pedestal.png" alt="responsive"> 
+	  </div>
 	</div>
-
-</header>
-
-<?php do_action( 'foundationpress_before_content' ); ?>
-<?php while ( have_posts() ) : the_post(); ?>
-<section class="intro" role="main">
-	<div class="fp-intro">
-
-		<div <?php post_class() ?> id="post-<?php the_ID(); ?>">
-			<?php do_action( 'foundationpress_page_before_entry_content' ); ?>
-			<div class="entry-content">
-				<?php the_content(); ?>
-			</div>
-			<footer>
-				<?php
-					wp_link_pages(
-						array(
-							'before' => '<nav id="page-nav"><p>' . __( 'Pages:', 'foundationpress' ),
-							'after'  => '</p></nav>',
-						)
-					);
-				?>
-				<p><?php the_tags(); ?></p>
-			</footer>
-			<?php do_action( 'foundationpress_page_before_comments' ); ?>
-			<?php comments_template(); ?>
-			<?php do_action( 'foundationpress_page_after_comments' ); ?>
-		</div>
-
-	</div>
-
 </section>
-<?php endwhile;?>
-<?php do_action( 'foundationpress_after_content' ); ?>
 
-<div class="section-divider">
-	<hr />
+<section class="front-m300">
+<div class="row">
+	<div class="font-m300__content">
+		<h5 class="is-text-blue">Zortrax M300</h5>
+		<h1>Large and in Charge</h1>
+		<h4>Everythinng you love about the M200 supersized.</h4>
+		<div class="hero-button">
+    	<a href="3d-printers/m300/" class="button primary large">Learn More</a>
+    </div>
+	</div>
+		<div class="font-m300__product">
+		<div class="front-m300__product-image">
+			<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/3dproshare/m300-side-by-side.png" alt="responsive">
+	  </div>
+	</div>
 </div>
-
-
-<section class="benefits">
-	<header>
-		<h2>Build Foundation based sites, powered by WordPress</h2>
-		<h4>Foundation is the professional choice for designers, developers and teams. <br /> WordPress is by far, <a href="http://trends.builtwith.com/cms">the world's most popular CMS</a> (currently powering 38% of the web).</h4>
-	</header>
-
-	<div class="semantic">
-		<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/semantic.svg" alt="semantic">
-		<h3>Semantic</h3>
-		<p>Everything is semantic. You can have the cleanest markup without sacrificing the utility and speed of Foundation.</p>
-	</div>
-
-	<div class="responsive">
-		<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/responsive.svg" alt="responsive">
-		<h3>Responsive</h3>
-		<p>You can build for small devices first. Then, as devices get larger and larger, layer in more complexity for a complete responsive design.</p>
-
-	</div>
-
-	<div class="customizable">
-		<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/customizable.svg" alt="customizable">
-		<h3>Customizable</h3>
-		<p>You can customize your build to include or remove certain elements, as well as define the size of columns, colors, font size and more.</p>
-
-	</div>
-
-	<div class="professional">
-		<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/professional.svg" alt="professional">
-		<h3>Professional</h3>
-		<p>Millions of designers and developers depend on Foundation. We have business support, training and consulting to help grow your product or service.</p>
-	</div>
-
-	<div class="why-foundation">
-		<a href="/kitchen-sink">See what's in Foundation out of the box →</a>
-	</div>
-
+	
 </section>
+
+<section class="front-inventure">
+	<div class="row">
+		<div class="front-inventure__image">
+			<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/3dproshare/inventure-printers.png" alt="responsive">
+		</div>
+		<div class="front-inventure__content">
+			<h5 class="is-text-blue">Zortrax Inventure</h5>
+			<h1>Beautiful. Professional.</h1>
+			<h4>Dual Print heads and an enclosed, heated print area open the world to incredible possibilities.</h4>
+			<div class="hero-button">
+	    	<a href="3d-printers/inventure/" class="button primary large">Learn More</a>
+	    </div>
+
+		</div>
+	</div>
+	<div class="row">
+		<div class="front-inventure__example">
+			<div class="front-inventure__example-before">
+			
+			</div>
+			<div class="front-inventure__example-after">
+			
+			</div>
+		</div>
+	</div>
+	
+</section>
+
+<section class="front-materials">
+		<div class="front-materials__m-series">
+			<div class="row">
+				<div class="front-materials__m-series__image">
+					<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/3dproshare/zglass.png" alt="responsive">
+				</div>
+				<div class="front-materials__m-series__content">
+					<h6>Zortrax M-Series Materials</h6>
+					<h2>Choice is Good.</h2>
+					<p>Choose from six material types and more than twenty three colors for incredible results an unmatched repeatability.</p>
+					<div>
+		     		<a href="materials/">Learn more about M-Series Materials →</a>
+		    	</div>
+				</div>
+			</div>
+		</div>
+		<div class="front-materials__inventure-series">
+			<div class="row">
+				<div class="front-materials__m-series__image">
+					<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/3dproshare/inventure-material.png" alt="responsive">
+				</div>
+				<div class="front-materials__m-series__content">
+					<h6>Zortrax Inventureure Materials</h6>
+					<h2>Amazing Times Two.</h2>
+					<p>Dual print heads, six colors, and a support material make for endless possibilities. Zortrax Inventure is coming soon.</p>
+					<div>
+						<p>Coming Soon.</p>
+     				<!-- <a href="/">Discover the Zortrax Inventure Materials →</a> -->
+    			</div>
+				</div>
+			</div>
+		</div>
+</section>	
+
 
 
 

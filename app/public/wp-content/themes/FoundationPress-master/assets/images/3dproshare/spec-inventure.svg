@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="96px" height="111px" viewBox="0 0 96 111" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>spec-inventure</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="spec-inventure">
+            <path d="M0.5,6.29375137 L10.695983,0.611443615 L86.336672,1.39936746 L95.5,7.27339418 L95.5,102.833333 L89.75,110.5 L6.25,110.5 L0.5,102.833333 L0.5,6.29375137 Z" id="Rectangle-38" stroke="#62686F"></path>
+            <rect id="Rectangle-45" stroke="#62686F" x="5.5" y="21.5" width="85" height="70" rx="2"></rect>
+            <path d="M11.5,95.5 L22.5,95.5 L22.5,99 L22.5,99.5 L23,99.5 L33,99.5 L33.5,99.5 L33.5,99 L33.5,95.5 L82.9934007,95.5 C83.8243297,95.5 84.5,96.1769486 84.5,97.0085302 L84.5,104.99147 C84.5,105.823115 83.8227942,106.5 82.9934007,106.5 L33.5,106.5 L33.5,103 L33.5,102.5 L33,102.5 L23,102.5 L22.5,102.5 L22.5,103 L22.5,106.5 L11.5,106.5 L11.5,95.5 Z" id="Rectangle-46-Copy" stroke="#62686F"></path>
+            <rect id="Rectangle-47" fill="#62686F" x="73" y="99" width="8" height="1"></rect>
+            <rect id="Rectangle-47" fill="#62686F" x="73" y="101" width="8" height="1"></rect>
+            <rect id="Rectangle-47-Copy" fill="#62686F" x="73" y="103" width="8" height="1"></rect>
+            <rect id="Rectangle-46" stroke="#62686F" x="14.5" y="98.5" width="5" height="5"></rect>
+        </g>
+    </g>
+</svg>

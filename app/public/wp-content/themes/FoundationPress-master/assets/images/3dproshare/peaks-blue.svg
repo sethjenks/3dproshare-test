@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1024px" height="384px" viewBox="0 0 1024 384" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>peaks-blue</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="1024" height="384"></rect>
+        <path d="M811.148029,225.543276 L605,139 L488.121282,197.112882 L363,111 L249.657729,171.004732 L177,63 L-43,247 L288,228 L479.5,228 L806.743902,228 L744,263 L1069,221 L891,181 L811.148029,225.543276 Z" id="path-3"></path>
+        <linearGradient x1="50%" y1="0%" x2="66.6687775%" y2="71.4592206%" id="linearGradient-4">
+            <stop stop-color="#000000" offset="0%"></stop>
+            <stop stop-color="#00AAF9" offset="100%"></stop>
+        </linearGradient>
+        <filter x="-7.6%" y="-3.6%" width="115.3%" height="107.3%" filterUnits="objectBoundingBox" id="filter-5">
+            <feGaussianBlur stdDeviation="4" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-9.2%" y="-3.6%" width="118.4%" height="107.3%" filterUnits="objectBoundingBox" id="filter-6">
+            <feGaussianBlur stdDeviation="4" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-5.7%" y="-4.1%" width="111.4%" height="108.2%" filterUnits="objectBoundingBox" id="filter-7">
+            <feGaussianBlur stdDeviation="4" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-6.3%" y="-5.3%" width="112.6%" height="110.6%" filterUnits="objectBoundingBox" id="filter-8">
+            <feGaussianBlur stdDeviation="4" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="peaks-blue">
+            <g id="graphic_peaks-copy">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Rectangle" fill="#FFFFFF" xlink:href="#path-1"></use>
+                <rect id="Rectangle-13" fill="#00AAF9" mask="url(#mask-2)" x="0" y="221" width="1024" height="163"></rect>
+                <path d="M884.692308,228 L562.5,228 L308.291339,228 L245.582677,228 L307,258 L-47,238 L47,131 L126.349154,169.75901 L274,111 L326.465409,174.283019 L446,111 L582.547126,204.976552 L739,156 L891.188048,224.059251 L977,172 L1157,222 L827,263 L884.692308,228 Z" id="Combined-Shape" fill="#00AAF9" opacity="0.300000012" mask="url(#mask-2)"></path>
+                <g id="Combined-Shape" mask="url(#mask-2)">
+                    <use fill="#00AAF9" fill-rule="evenodd" xlink:href="#path-3"></use>
+                    <path stroke="#00AAF9" stroke-width="2" d="M891.153504,182.059434 L1063.25553,220.734046 L749.024302,261.34239 L807.231058,228.873315 L810.589318,227 L806.743902,227 L479.5,227 L288,227 L-40.040572,245.828492 L176.789958,64.4793222 L248.828007,171.562909 L249.330304,172.309567 L250.125616,171.88852 L362.932284,112.167343 L487.554342,197.936641 L488.039321,198.270421 L488.566493,198.008308 L605.035158,140.099307 L810.760944,226.465321 L811.209929,226.653809 L811.635184,226.416592 L891.153504,182.059434 Z"></path>
+                </g>
+                <polygon id="Triangle-2" fill="url(#linearGradient-4)" opacity="0.100000001" filter="url(#filter-5)" mask="url(#mask-2)" points="175 67 332 290 185 396"></polygon>
+                <polygon id="Triangle-2-Copy" fill="url(#linearGradient-4)" opacity="0.100000001" filter="url(#filter-6)" mask="url(#mask-2)" points="363 113 483.5 198 493.5 444"></polygon>
+                <polygon id="Triangle-2-Copy-2" fill="url(#linearGradient-4)" opacity="0.100000001" filter="url(#filter-7)" mask="url(#mask-2)" points="606 144 816 237 695 436"></polygon>
+                <polygon id="Triangle-2-Copy-3" fill="url(#linearGradient-4)" opacity="0.100000001" filter="url(#filter-8)" mask="url(#mask-2)" points="891 185 1081 225 1026 412"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

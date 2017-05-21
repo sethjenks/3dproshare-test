@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="36px" viewBox="0 0 20 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>chevron-blue@3x</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="chevron-blue" fill="#00AAF9" fill-rule="nonzero">
+            <path d="M0.585786438,32.5857864 C-0.195262146,33.366835 -0.195262146,34.633165 0.585786438,35.4142136 C1.36683502,36.1952621 2.63316498,36.1952621 3.41421356,35.4142136 L19.4142136,19.4142136 C20.1952621,18.633165 20.1952621,17.366835 19.4142136,16.5857864 L3.41421356,0.585786438 C2.63316498,-0.195262146 1.36683502,-0.195262146 0.585786438,0.585786438 C-0.195262146,1.36683502 -0.195262146,2.63316498 0.585786438,3.41421356 L15.1715729,18 L0.585786438,32.5857864 Z"></path>
+        </g>
+    </g>
+</svg>

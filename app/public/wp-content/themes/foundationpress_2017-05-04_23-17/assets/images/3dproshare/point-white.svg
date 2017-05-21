@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="112px" height="112px" viewBox="0 0 112 112" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>point-white</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="point-white" stroke="#FFFFFF">
+            <g id="Group-2" transform="translate(16.000000, 13.000000)">
+                <path d="M29,51 L51,51 L51,60.2527775 L40.360046,77.1650887 L29,60.2367408 L29,51 Z" id="Rectangle" stroke-width="2"></path>
+                <path d="M29,1 L51,1 L51,15 L29,15 L29,1 Z" id="Rectangle-Copy" stroke-width="2"></path>
+                <rect id="Rectangle-30" stroke-width="2" x="1" y="15" width="78" height="36"></rect>
+                <path d="M41,81 C41,95 41,97 74,97" id="Path-2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2"></path>
+            </g>
+        </g>
+    </g>
+</svg>

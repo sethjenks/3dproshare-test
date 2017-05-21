@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1684px" height="638px" viewBox="0 0 1684 638" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>larger-bg</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="38.768966%" y1="118.483255%" x2="64.4199871%" y2="23.4801515%" id="linearGradient-1">
+            <stop stop-color="#E4F1FE" offset="0%"></stop>
+            <stop stop-color="#00AAF9" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="larger-bg" fill="url(#linearGradient-1)">
+            <polygon id="Rectangle-19" opacity="0.100000001" transform="translate(1008.500000, 194.500000) rotate(-90.000000) translate(-1008.500000, -194.500000) " points="814 -353 1203 -481 1203 870 814 870"></polygon>
+            <polygon id="Rectangle-19" opacity="0.300000012" transform="translate(916.000000, 317.500000) rotate(-90.000000) translate(-916.000000, -317.500000) " points="721.5 -316.5 1110.5 -444.5 1110.5 1079.5 721.5 1079.5"></polygon>
+            <polygon id="Rectangle-19-Copy" opacity="0.300000012" transform="translate(837.000000, 443.500000) rotate(-90.000000) translate(-837.000000, -443.500000) " points="642.5 -265.5 1031.5 -393.5 1031.5 1280.5 642.5 1280.5"></polygon>
+        </g>
+    </g>
+</svg>

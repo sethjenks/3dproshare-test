@@ -15,6 +15,23 @@
 		<meta charset="<?php bloginfo( 'charset' ); ?>" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<?php wp_head(); ?>
+		<script>
+			window['_fs_debug'] = false;
+			window['_fs_host'] = 'fullstory.com';
+			window['_fs_org'] = '4HNXE';
+			window['_fs_namespace'] = 'FS';
+			(function(m,n,e,t,l,o,g,y){
+			    if (e in m && m.console && m.console.log) { m.console.log('FullStory namespace conflict. Please set window["_fs_namespace"].'); return;}
+			    g=m[e]=function(a,b){g.q?g.q.push([a,b]):g._api(a,b);};g.q=[];
+			    o=n.createElement(t);o.async=1;o.src='https://'+_fs_host+'/s/fs.js';
+			    y=n.getElementsByTagName(t)[0];y.parentNode.insertBefore(o,y);
+			    g.identify=function(i,v){g(l,{uid:i});if(v)g(l,v)};g.setUserVars=function(v){g(l,v)};
+			    g.identifyAccount=function(i,v){o='account';v=v||{};v.acctId=i;g(o,v)};
+			    g.clearUserCookie=function(c,d,i){if(!c || document.cookie.match('fs_uid=[`;`]*`[`;`]*`[`;`]*`')){
+			    d=n.domain;while(1){n.cookie='fs_uid=;domain='+d+
+			    ';path=/;expires='+new Date(0).toUTCString();i=d.indexOf('.');if(i<0)break;d=d.slice(i+1)}}};
+			})(window,document,window['_fs_namespace'],'script','user');
+		</script>
 	</head>
 	<body <?php body_class(); ?>>
 	<?php do_action( 'foundationpress_after_body' ); ?>
@@ -30,14 +47,18 @@
 		<div class="title-bar" <?php foundationpress_title_bar_responsive_toggle() ?>>
 			<button class="menu-icon" type="button" data-toggle="<?php foundationpress_mobile_menu_id(); ?>"></button>
 			<div class="title-bar-title">
-				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
+				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
+					<img class="" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/3dproshare/proshare_logo-white-blue.png" alt="responsive">
+				</a>
 			</div>
 		</div>
 
 		<nav id="site-navigation" class="main-navigation top-bar" role="navigation">
 			<div class="top-bar-left">
 				<ul class="menu">
-					<li class="home"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></li>
+					<li class="home"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
+						<img class="" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/3dproshare/proshare_logo-white-blue.png" alt="responsive"></a>
+					</li>
 				</ul>
 			</div>
 			<div class="top-bar-right">

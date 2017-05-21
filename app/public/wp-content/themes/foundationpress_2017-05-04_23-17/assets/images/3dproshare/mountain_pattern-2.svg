@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1357px" height="1004px" viewBox="0 0 1357 1004" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>mountain_pattern-2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#F9FBFC" offset="0%"></stop>
+            <stop stop-color="#F1F3F6" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#F1F3F6" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#E0E4E8" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="mountain_pattern-2">
+            <rect id="Rectangle-11" fill="#EEF2F5" x="0" y="0" width="1357" height="402"></rect>
+            <polygon id="Polygon-4" fill="url(#linearGradient-1)" points="261.071106 40 419.071106 172 435.142212 378.5 261.071106 479 87 378.5 87 207"></polygon>
+            <polygon id="Polygon-4-Copy-12" fill="url(#linearGradient-1)" points="518.071106 25 676.071106 157 692.142212 363.5 518.071106 464 344 363.5 344 192"></polygon>
+            <polygon id="Polygon-4-Copy-16" fill="url(#linearGradient-1)" points="737.071106 58 895.071106 190 911.142212 396.5 737.071106 497 563 396.5 563 225"></polygon>
+            <polygon id="Polygon-4-Copy-6" fill="url(#linearGradient-1)" points="174.071106 220 332.071106 352 348.142212 558.5 174.071106 659 1.11123206e-13 558.5 0 387"></polygon>
+            <polygon id="Polygon-4-Copy-13" fill="url(#linearGradient-1)" points="401.071106 275 559.071106 407 575.142212 613.5 401.071106 714 227 613.5 227 442"></polygon>
+            <polygon id="Polygon-4-Copy" fill="url(#linearGradient-2)" points="522.071106 108 696.142212 282 696.142212 409.5 522.071106 510 348 409.5 348 248"></polygon>
+            <polygon id="Polygon-4-Copy-14" fill="url(#linearGradient-2)" points="779.071106 93 953.142212 267 953.142212 394.5 779.071106 495 605 394.5 605 233"></polygon>
+            <polygon id="Polygon-4-Copy-7" fill="url(#linearGradient-2)" points="435.071106 328 609.142212 502 609.142212 629.5 435.071106 730 261 629.5 261 468"></polygon>
+            <polygon id="Polygon-4-Copy-15" fill="url(#linearGradient-2)" points="662.071106 383 836.142212 557 836.142212 684.5 662.071106 785 488 684.5 488 523"></polygon>
+            <polygon id="Polygon-4-Copy-8" fill="url(#linearGradient-3)" points="564.071106 320 689 425 729 521 564.071106 710 390 532 390 460"></polygon>
+            <polygon id="Polygon-4-Copy-17" fill="url(#linearGradient-3)" points="791.071106 375 916 480 956 576 791.071106 765 617 587 617 515"></polygon>
+            <polygon id="Polygon-4-Copy-2" fill="url(#linearGradient-2)" points="382.071106 163 527 289 474 472 286 541 181 464.5 181 255"></polygon>
+            <polygon id="Polygon-4-Copy-18" fill="url(#linearGradient-2)" points="609.071106 218 754 344 701 527 513 596 408 519.5 408 310"></polygon>
+            <polygon id="Polygon-4-Copy-9" fill="url(#linearGradient-2)" points="295.071106 383 440 509 387 692 199 761 94 684.5 94 475"></polygon>
+            <polygon id="Polygon-4-Copy-19" fill="url(#linearGradient-2)" points="522.071106 438 667 564 614 747 426 816 321 739.5 321 530"></polygon>
+            <polygon id="Polygon-4-Copy-3" fill="url(#linearGradient-2)" points="947 118 1130 334 1077 517 889 586 784 509.5 784 300"></polygon>
+            <polygon id="Polygon-4-Copy-20" fill="url(#linearGradient-2)" points="1174 173 1357 389 1304 572 1116 641 1011 564.5 1011 355"></polygon>
+            <polygon id="Polygon-4-Copy-10" fill="url(#linearGradient-2)" points="860 338 1043 554 990 737 802 806 697 729.5 697 520"></polygon>
+            <polygon id="Polygon-4-Copy-21" fill="url(#linearGradient-2)" points="1087 393 1270 609 1217 792 1029 861 924 784.5 924 575"></polygon>
+            <polygon id="Polygon-4-Copy-5" fill="url(#linearGradient-2)" points="774.5 338 912 449 854 695 637 714 516 623 534 480"></polygon>
+            <polygon id="Polygon-4-Copy-22" fill="url(#linearGradient-2)" points="1007.5 408 1145 519 1087 765 870 784 749 693 767 550"></polygon>
+            <polygon id="Polygon-4-Copy-11" fill="url(#linearGradient-2)" points="693.5 573 831 684 773 930 556 949 435 858 453 715"></polygon>
+            <polygon id="Polygon-4-Copy-23" fill="url(#linearGradient-2)" points="990.5 600 1128 739 1070 985 853 1004 732 913 750 770"></polygon>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,334 @@
+$section-padding: 4rem 0;
+$section-margin: 4rem 0;
+
+
+/**
+ * @license
+ * MyFonts Webfont Build ID 3383312, 2017-05-03T00:30:33-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed ../fonts/Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Graphie-Thin by Flat-it
+ * URL: http://www.myfonts.com/fonts/flat-it/graphie/thin/
+ * 
+ * Webfont: Graphie-Book by Flat-it
+ * URL: http://www.myfonts.com/fonts/flat-it/graphie/book/
+ * 
+ * Webfont: Graphie-ExtraLight by Flat-it
+ * URL: http://www.myfonts.com/fonts/flat-it/graphie/extra-light/
+ * 
+ * Webfont: Graphie-Light by Flat-it
+ * URL: http://www.myfonts.com/fonts/flat-it/graphie/light/
+ * 
+ * Webfont: Graphie-Regular by Flat-it
+ * URL: http://www.myfonts.com/fonts/flat-it/graphie/regular/
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=3383312
+ * Licensed pageviews: 10,000
+ * Webfonts copyright: Copyright (c) 2014 by Ryoichi Tsunekawa. All rights reserved.
+ * 
+ * © 2017 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/33a010");
+
+  
+@font-face {font-family: 'Graphie-Thin';src: url('../fonts/webfonts/33A010_0_0.eot');src: url('../fonts/webfonts/33A010_0_0.eot?#iefix') format('embedded-opentype'),url('../fonts/webfonts/33A010_0_0.woff2') format('woff2'),url('../fonts/webfonts/33A010_0_0.woff') format('woff'),url('../fonts/webfonts/33A010_0_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Graphie-Book';src: url('../fonts/webfonts/33A010_1_0.eot');src: url('../fonts/webfonts/33A010_1_0.eot?#iefix') format('embedded-opentype'),url('../fonts/webfonts/33A010_1_0.woff2') format('woff2'),url('../fonts/webfonts/33A010_1_0.woff') format('woff'),url('../fonts/webfonts/33A010_1_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Graphie-ExtraLight';src: url('../fonts/webfonts/33A010_2_0.eot');src: url('../fonts/webfonts/33A010_2_0.eot?#iefix') format('embedded-opentype'),url('../fonts/webfonts/33A010_2_0.woff2') format('woff2'),url('../fonts/webfonts/33A010_2_0.woff') format('woff'),url('../fonts/webfonts/33A010_2_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Graphie-Light';src: url('../fonts/webfonts/33A010_3_0.eot');src: url('../fonts/webfonts/33A010_3_0.eot?#iefix') format('embedded-opentype'),url('../fonts/webfonts/33A010_3_0.woff2') format('woff2'),url('../fonts/webfonts/33A010_3_0.woff') format('woff'),url('../fonts/webfonts/33A010_3_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Graphie-Regular';src: url('../fonts/webfonts/33A010_4_0.eot');src: url('../fonts/webfonts/33A010_4_0.eot?#iefix') format('embedded-opentype'),url('../fonts/webfonts/33A010_4_0.woff2') format('woff2'),url('../fonts/webfonts/33A010_4_0.woff') format('woff'),url('../fonts/webfonts/33A010_4_0.ttf') format('truetype');}
+ 
+
+@import url("//hello.myfonts.net/count/33a699");
+
+  
+@font-face {font-family: 'Graphie-Bold';src: url('../fonts/webfonts/33A699_0_0.eot');src: url('../fonts/webfonts/33A699_0_0.eot?#iefix') format('embedded-opentype'),url('../fonts/webfonts/33A699_0_0.woff2') format('woff2'),url('../fonts/webfonts/33A699_0_0.woff') format('woff'),url('../fonts/webfonts/33A699_0_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Graphie-SemiBold';src: url('../fonts/webfonts/33A699_1_0.eot');src: url('../fonts/webfonts/33A699_1_0.eot?#iefix') format('embedded-opentype'),url('../fonts/webfonts/33A699_1_0.woff2') format('woff2'),url('../fonts/webfonts/33A699_1_0.woff') format('woff'),url('../fonts/webfonts/33A699_1_0.ttf') format('truetype');}
+
+//Typography
+
+
+h1{
+  font-family: Graphie-SemiBold;
+  text-shadow: 0 6px 8px rgba(0,0,0,0.15)
+  
+}
+
+ h3{
+  font-family: Graphie-Book;
+  
+}
+
+h2, h5, h6{
+  font-family: Graphie-SemiBold;
+  
+}
+
+p{
+  font-family: Graphie-Regular;
+  color: lighten($black, 20%);
+  
+}
+
+a{
+  color: map-get($proshare-palette, primary);
+}
+
+.is-text-blue{
+  color: map-get($proshare-palette, primary);
+}
+.is-text-white{
+  color: $white;
+}
+
+
+footer{
+  p, h1, h2, h3, h4, h5, h6, .textwidget{
+    color: $white;
+  }
+  a{
+    color: lighten(map-get($proshare-palette, primary), 15%);
+  }
+}
+
+
+.text-strikethrough{
+  font-family: Graphie-SemiBold;
+  text-decoration: line-through;
+  color: transparentize($black, 0.5);
+}
+
+.text-highlight{
+  color: map-get($proshare-palette, primary);
+  font-family: Graphie-Bold;
+}
+
+//
+
+
+//menu
+.top-bar .menu > li:not(.menu-text) > a {
+    height: 3.5rem;
+    
+}
+
+.top-bar .menu li:not(:last-child) {
+    border-right: none;
+}
+
+
+
+
+section.product-section{
+  padding: $section-padding;
+}
+
+
+//Materials Orbit
+
+.orbit-bullets button{
+  background-color: #fff;
+}
+
+
+.orbit-bullets button.is-active {
+    background-color: map-get($proshare-palette, primary);
+}
+
+.materials-orbit.product-section{
+  margin: 0; 
+}
+
+
+
+
+
+.top-bar, .top-bar ul {
+    background-color: #050708;
+}
+
+
+
+
+//Product Overview
+.product-overview{
+  @include grid-row-size(expand);
+  background-color: #00AAF9; 
+  background-repeat: repeat-x;
+  padding: 4rem 0;
+  
+}
+
+.product-overview__description{
+  img{
+    margin-bottom: rem-calc(24);
+  }
+
+  h5, h6{
+    color: $white;
+    font-weight: 800;
+    text-transform: uppercase;
+  }
+
+  p{
+    color: $white;
+  }
+
+
+  img{
+    margin-bottom: 24px;
+  }
+  
+@include breakpoint(small){
+  @include grid-column(12);
+  @include grid-column-position(0);
+  
+}
+
+@include breakpoint(medium){
+  @include grid-column(3);
+  @include grid-column-position(0);
+  }
+}
+
+//Sections
+.product-section{
+   padding: $section-padding;
+}
+
+.section-content{
+  @include grid-row(); 
+}
+
+
+.specs-section{
+  @include grid-row();
+  @include grid-row-size(expand);
+  padding: $section-padding;
+  background-color: $white; 
+}
+
+.specs-section__dimensions{
+  @include grid-column(10);
+  margin: $section-margin;  
+}
+
+.specs-section__dimensions-title{
+  @include grid-column(2);
+}
+
+.specs-section__dimensions-item{
+  @include grid-column(2);
+
+  
+    img{
+      margin: 0 auto;
+      float: right;
+    }
+
+    p{
+      font-size: rem-calc(12);
+    }
+}
+
+
+  .specs-section__specs{
+
+  }
+ 
+  .specs-section__printing{
+    @include grid-column(12)
+  }
+
+  .specs-section__headline{
+    font-family: Graphie-SemiBold;
+    text-align: center;
+    span{
+      color: map-get($proshare-palette, primary);
+    }
+
+  }
+
+
+
+ .specs-section__section-1{
+  @include breakpoint(small){
+    @include grid-column(12);
+    
+  }
+  @include breakpoint(medium){
+    @include grid-column(4);
+  } 
+}
+
+.specs-section__section-2{
+  @include breakpoint(small){
+    @include grid-column(12);
+  }
+  @include breakpoint(medium){
+    @include grid-column(8);
+  }   
+}
+
+.specs-section__printing{
+  @include grid-column(12);
+}
+
+
+//tables
+table tbody th, table tbody td {
+vertical-align: top;
+ border-top: 1px solid lighten($black, 65%);
+}
+
+table tbody td:not(:first-of-type){
+  font-family: 'Graphie-Regular';
+  color: lighten($black, 30%);
+}
+
+table tbody td:first-of-type{
+  text-align: right;
+  font-family: 'Graphie-SemiBold';
+  color: lighten($black, 20%);
+}
+
+
+// table tbody tr:nth-child(odd) {
+//     border-bottom: 0;
+//     background-color: lighten($black, 70%);
+// }
+
+// table tbody tr:nth-child(even) {
+//     border-bottom: 0;
+//     background-color: $white;
+// }
+
+
+//Buttons
+.button.primary{
+  border-radius: 40px;
+  background-color: map-get($proshare-palette, primary);
+  font-weight: 600;
+}
+
+.hero-button{
+  margin-top: 2rem;
+}

@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1171px" height="594px" viewBox="0 0 1171 594" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>inventure-hero-bg</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="-7.60166917%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#353D44" offset="0%"></stop>
+            <stop stop-color="#1C232B" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0" y="0" width="1171" height="594"></rect>
+        <filter x="-11.7%" y="-10.2%" width="123.5%" height="120.3%" filterUnits="objectBoundingBox" id="filter-4">
+            <feGaussianBlur stdDeviation="8" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-11.7%" y="-10.2%" width="123.5%" height="120.3%" filterUnits="objectBoundingBox" id="filter-5">
+            <feGaussianBlur stdDeviation="8" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-11.7%" y="-10.2%" width="123.5%" height="120.3%" filterUnits="objectBoundingBox" id="filter-6">
+            <feGaussianBlur stdDeviation="8" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-11.7%" y="-10.2%" width="123.5%" height="120.3%" filterUnits="objectBoundingBox" id="filter-7">
+            <feGaussianBlur stdDeviation="8" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-18.5%" y="-16.0%" width="137.1%" height="132.1%" filterUnits="objectBoundingBox" id="filter-8">
+            <feGaussianBlur stdDeviation="8" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-30.8%" y="-26.6%" width="161.5%" height="153.3%" filterUnits="objectBoundingBox" id="filter-9">
+            <feGaussianBlur stdDeviation="8" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-30.8%" y="-26.6%" width="161.5%" height="153.3%" filterUnits="objectBoundingBox" id="filter-10">
+            <feGaussianBlur stdDeviation="8" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-18.5%" y="-16.0%" width="137.1%" height="132.1%" filterUnits="objectBoundingBox" id="filter-11">
+            <feGaussianBlur stdDeviation="8" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-166.5%" y="-166.5%" width="433.0%" height="433.0%" filterUnits="objectBoundingBox" id="filter-12">
+            <feGaussianBlur stdDeviation="8" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-666.0%" y="-20.8%" width="1432.1%" height="141.6%" filterUnits="objectBoundingBox" id="filter-13">
+            <feGaussianBlur stdDeviation="8" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-166.5%" y="-166.5%" width="433.0%" height="433.0%" filterUnits="objectBoundingBox" id="filter-14">
+            <feGaussianBlur stdDeviation="8" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-666.0%" y="-20.8%" width="1432.1%" height="141.6%" filterUnits="objectBoundingBox" id="filter-15">
+            <feGaussianBlur stdDeviation="8" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-166.5%" y="-166.5%" width="433.0%" height="433.0%" filterUnits="objectBoundingBox" id="filter-16">
+            <feGaussianBlur stdDeviation="8" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-666.0%" y="-33.3%" width="1432.1%" height="166.6%" filterUnits="objectBoundingBox" id="filter-17">
+            <feGaussianBlur stdDeviation="8" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-166.5%" y="-166.5%" width="433.0%" height="433.0%" filterUnits="objectBoundingBox" id="filter-18">
+            <feGaussianBlur stdDeviation="8" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-666.0%" y="-20.8%" width="1432.1%" height="141.6%" filterUnits="objectBoundingBox" id="filter-19">
+            <feGaussianBlur stdDeviation="8" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-666.0%" y="-20.8%" width="1432.1%" height="141.6%" filterUnits="objectBoundingBox" id="filter-20">
+            <feGaussianBlur stdDeviation="8" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-666.0%" y="-20.8%" width="1432.1%" height="141.6%" filterUnits="objectBoundingBox" id="filter-21">
+            <feGaussianBlur stdDeviation="8" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-666.0%" y="-20.8%" width="1432.1%" height="141.6%" filterUnits="objectBoundingBox" id="filter-22">
+            <feGaussianBlur stdDeviation="8" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-666.0%" y="-20.8%" width="1432.1%" height="141.6%" filterUnits="objectBoundingBox" id="filter-23">
+            <feGaussianBlur stdDeviation="8" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-666.0%" y="-20.8%" width="1432.1%" height="141.6%" filterUnits="objectBoundingBox" id="filter-24">
+            <feGaussianBlur stdDeviation="8" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-666.0%" y="-35.1%" width="1432.1%" height="170.1%" filterUnits="objectBoundingBox" id="filter-25">
+            <feGaussianBlur stdDeviation="8" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-166.5%" y="-166.5%" width="433.0%" height="433.0%" filterUnits="objectBoundingBox" id="filter-26">
+            <feGaussianBlur stdDeviation="8" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-166.5%" y="-166.5%" width="433.0%" height="433.0%" filterUnits="objectBoundingBox" id="filter-27">
+            <feGaussianBlur stdDeviation="8" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-111.0%" y="-111.0%" width="322.0%" height="322.0%" filterUnits="objectBoundingBox" id="filter-28">
+            <feGaussianBlur stdDeviation="8" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-111.0%" y="-111.0%" width="322.0%" height="322.0%" filterUnits="objectBoundingBox" id="filter-29">
+            <feGaussianBlur stdDeviation="8" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-111.0%" y="-111.0%" width="322.0%" height="322.0%" filterUnits="objectBoundingBox" id="filter-30">
+            <feGaussianBlur stdDeviation="8" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-111.0%" y="-111.0%" width="322.0%" height="322.0%" filterUnits="objectBoundingBox" id="filter-31">
+            <feGaussianBlur stdDeviation="8" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-666.0%" y="-35.1%" width="1432.1%" height="170.1%" filterUnits="objectBoundingBox" id="filter-32">
+            <feGaussianBlur stdDeviation="8" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-166.5%" y="-166.5%" width="433.0%" height="433.0%" filterUnits="objectBoundingBox" id="filter-33">
+            <feGaussianBlur stdDeviation="8" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-666.0%" y="-35.1%" width="1432.1%" height="170.1%" filterUnits="objectBoundingBox" id="filter-34">
+            <feGaussianBlur stdDeviation="8" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-166.5%" y="-166.5%" width="433.0%" height="433.0%" filterUnits="objectBoundingBox" id="filter-35">
+            <feGaussianBlur stdDeviation="8" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-37.5%" y="-32.6%" width="175.0%" height="165.2%" filterUnits="objectBoundingBox" id="filter-36">
+            <feGaussianBlur stdDeviation="50" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="inventure-hero-bg">
+            <mask id="mask-3" fill="white">
+                <use xlink:href="#path-2"></use>
+            </mask>
+            <use id="Mask" fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+            <g id="Group-9-Copy" opacity="0.100000001" mask="url(#mask-3)">
+                <g transform="translate(521.796527, 326.628816) rotate(339.000000) translate(-521.796527, -326.628816) translate(-70.203473, -137.371184)">
+                    <path d="M811.6762,285.179908 L911.87833,343.031635 L911.87833,458.735089 L811.6762,516.586816 L711.47407,458.735089 L711.47407,343.031635 L811.6762,285.179908 Z" id="Polygon" stroke="#C7D1D5" stroke-width="4" fill="none" filter="url(#filter-4)"></path>
+                    <path d="M712.581436,110.41278 L812.783567,168.264506 L812.783567,283.96796 L712.581436,341.819687 L612.379306,283.96796 L612.379306,168.264506 L712.581436,110.41278 Z" id="Polygon-Copy-3" stroke="#C7D1D5" stroke-width="4" fill="none" filter="url(#filter-5)"></path>
+                    <path d="M1074.72775,694.171023 L1174.92988,752.02275 L1174.92988,867.726204 L1074.72775,925.577931 L974.525624,867.726204 L974.525624,752.02275 L1074.72775,694.171023 Z" id="Polygon-Copy-7" stroke="#C7D1D5" stroke-width="4" fill="none" filter="url(#filter-6)"></path>
+                    <path d="M209.900727,283.378185 L310.102857,341.229912 L310.102857,456.933366 L209.900727,514.785093 L109.698596,456.933366 L109.698596,341.229912 L209.900727,283.378185 Z" id="Polygon-Copy-4" stroke="#C7D1D5" stroke-width="4" fill="none" filter="url(#filter-7)"></path>
+                    <path d="M612.477806,586.067645 L675.231827,622.298696 L675.231827,694.760798 L612.477806,730.99185 L549.723784,694.760798 L549.723784,622.298696 L612.477806,586.067645 Z" id="Polygon-Copy" stroke="#C7D1D5" stroke-width="4" fill="none" filter="url(#filter-8)"></path>
+                    <path d="M410.163379,586.067645 L447.171826,607.434481 L447.171826,650.168155 L410.163379,671.534991 L373.154933,650.168155 L373.154933,607.434481 L410.163379,586.067645 Z" id="Polygon-Copy-6" stroke="#C7D1D5" stroke-width="4" fill="none" filter="url(#filter-9)"></path>
+                    <path d="M775.913143,708.584807 L812.92159,729.951644 L812.92159,772.685317 L775.913143,794.052154 L738.904697,772.685317 L738.904697,729.951644 L775.913143,708.584807 Z" id="Polygon-Copy-8" stroke="#C7D1D5" stroke-width="4" fill="none" filter="url(#filter-10)"></path>
+                    <path d="M1073.71889,479.765989 L1136.47291,515.997041 L1136.47291,588.459143 L1073.71889,624.690194 L1010.96487,588.459143 L1010.96487,515.997041 L1073.71889,479.765989 Z" id="Polygon-Copy-2" stroke="#C7D1D5" stroke-width="4" fill="none" filter="url(#filter-11)"></path>
+                    <circle id="Oval-3" stroke="none" fill="#C7D1D5" fill-rule="evenodd" filter="url(#filter-12)" cx="1010.76659" cy="284.67223" r="7.2068919"></circle>
+                    <rect id="Rectangle-25" stroke="none" fill="#C7D1D5" fill-rule="evenodd" filter="url(#filter-13)" transform="translate(962.503498, 313.258412) rotate(60.000000) translate(-962.503498, -313.258412) " x="960.701775" y="255.603277" width="3.60344595" height="115.31027"></rect>
+                    <circle id="Oval-3" stroke="none" fill="#C7D1D5" fill-rule="evenodd" filter="url(#filter-14)" cx="549.525507" cy="695.465068" r="7.2068919"></circle>
+                    <rect id="Rectangle-25" stroke="none" fill="#C7D1D5" fill-rule="evenodd" filter="url(#filter-15)" transform="translate(501.262417, 724.051251) rotate(60.000000) translate(-501.262417, -724.051251) " x="499.460694" y="666.396115" width="3.60344595" height="115.31027"></rect>
+                    <circle id="Oval-3" stroke="none" fill="#C7D1D5" fill-rule="evenodd" filter="url(#filter-16)" transform="translate(675.646115, 693.663345) scale(-1, 1) translate(-675.646115, -693.663345) " cx="675.646115" cy="693.663345" r="7.2068919"></circle>
+                    <rect id="Rectangle-25" stroke="none" fill="#C7D1D5" fill-rule="evenodd" filter="url(#filter-17)" transform="translate(709.555457, 713.240913) scale(-1, 1) rotate(60.000000) translate(-709.555457, -713.240913) " x="707.753734" y="677.206453" width="3.60344595" height="72.068919"></rect>
+                    <circle id="Oval-3" stroke="none" fill="#C7D1D5" fill-rule="evenodd" filter="url(#filter-18)" cx="109.905101" cy="457.637636" r="7.2068919"></circle>
+                    <rect id="Rectangle-25" stroke="none" fill="#C7D1D5" fill-rule="evenodd" filter="url(#filter-19)" transform="translate(61.642011, 486.223818) rotate(60.000000) translate(-61.642011, -486.223818) " x="59.8402881" y="428.568683" width="3.60344595" height="115.31027"></rect>
+                    <rect id="Rectangle-25-Copy-2" stroke="none" fill="#C7D1D5" fill-rule="evenodd" filter="url(#filter-20)" transform="translate(962.503498, 488.025541) scale(-1, 1) rotate(60.000000) translate(-962.503498, -488.025541) " x="960.701775" y="430.370406" width="3.60344595" height="115.31027"></rect>
+                    <rect id="Rectangle-25-Copy-3" stroke="none" fill="#C7D1D5" fill-rule="evenodd" filter="url(#filter-21)" transform="translate(560.719275, 486.223818) scale(-1, 1) rotate(60.000000) translate(-560.719275, -486.223818) " x="558.917552" y="428.568683" width="3.60344595" height="115.31027"></rect>
+                    <rect id="Rectangle-25-Copy-4" stroke="none" fill="#C7D1D5" fill-rule="evenodd" filter="url(#filter-22)" transform="translate(358.542872, 486.223818) scale(-1, 1) rotate(60.000000) translate(-358.542872, -486.223818) " x="356.741149" y="428.568683" width="3.60344595" height="115.31027"></rect>
+                    <rect id="Rectangle-25-Copy" stroke="none" fill="#C7D1D5" fill-rule="evenodd" filter="url(#filter-23)" transform="translate(661.615762, 488.025541) rotate(60.000000) translate(-661.615762, -488.025541) " x="659.814039" y="430.370406" width="3.60344595" height="115.31027"></rect>
+                    <rect id="Rectangle-25-Copy-6" stroke="none" fill="#C7D1D5" fill-rule="evenodd" filter="url(#filter-24)" transform="translate(459.439359, 488.025541) rotate(60.000000) translate(-459.439359, -488.025541) " x="457.637636" y="430.370406" width="3.60344595" height="115.31027"></rect>
+                    <rect id="Rectangle-25" stroke="none" fill="#C7D1D5" fill-rule="evenodd" filter="url(#filter-25)" transform="translate(1073.826893, 661.232332) scale(-1, 1) translate(-1073.826893, -661.232332) " x="1072.02517" y="626.999595" width="3.60344595" height="68.465473"></rect>
+                    <circle id="Oval-3-Copy" stroke="none" fill="#C7D1D5" fill-rule="evenodd" filter="url(#filter-26)" cx="1073.82689" cy="623.396149" r="7.2068919"></circle>
+                    <circle id="Oval-3-Copy-5" stroke="none" fill="#C7D1D5" fill-rule="evenodd" filter="url(#filter-27)" cx="1073.82689" cy="695.465068" r="7.2068919"></circle>
+                    <circle id="Oval-3-Copy-7" stroke="none" fill="#00AAF9" fill-rule="evenodd" filter="url(#filter-28)" cx="10.8103378" cy="517.094494" r="10.8103378"></circle>
+                    <circle id="Oval-3-Copy-8" stroke="none" fill="#00AAF9" fill-rule="evenodd" filter="url(#filter-29)" cx="909.870102" cy="461.241081" r="10.8103378"></circle>
+                    <circle id="Oval-3-Copy-9" stroke="none" fill="#00AAF9" fill-rule="evenodd" filter="url(#filter-30)" cx="612.585811" cy="282.870507" r="10.8103378"></circle>
+                    <circle id="Oval-3-Copy-10" stroke="none" fill="#00AAF9" fill-rule="evenodd" filter="url(#filter-31)" cx="509.887602" cy="459.439359" r="10.8103378"></circle>
+                    <rect id="Rectangle-25-Copy-5" stroke="none" fill="#C7D1D5" fill-rule="evenodd" filter="url(#filter-32)" transform="translate(410.409408, 553.128953) scale(-1, 1) translate(-410.409408, -553.128953) " x="408.607685" y="518.896217" width="3.60344595" height="68.465473"></rect>
+                    <circle id="Oval-3-Copy-2" stroke="none" fill="#C7D1D5" fill-rule="evenodd" filter="url(#filter-33)" cx="410.409408" cy="515.292771" r="7.2068919"></circle>
+                    <rect id="Rectangle-25-Copy-5" stroke="none" fill="#C7D1D5" fill-rule="evenodd" filter="url(#filter-34)" transform="translate(612.202381, 553.128953) scale(-1, 1) translate(-612.202381, -553.128953) " x="610.400658" y="518.896217" width="3.60344595" height="68.465473"></rect>
+                    <circle id="Oval-3-Copy-2" stroke="none" fill="#C7D1D5" fill-rule="evenodd" filter="url(#filter-35)" cx="612.202381" cy="515.292771" r="7.2068919"></circle>
+                </g>
+            </g>
+            <g id="Group-9" opacity="0.100000001" mask="url(#mask-3)">
+                <g transform="translate(253.430249, 238.791325) rotate(-311.000000) translate(-253.430249, -238.791325) translate(-26.069751, 19.791325)">
+                    <path d="M382.765803,134.54922 L429.961722,161.797797 L429.961722,216.29495 L382.765803,243.543526 L335.569884,216.29495 L335.569884,161.797797 L382.765803,134.54922 Z" id="Polygon" stroke="#C7D1D5" stroke-width="2" fill="none"></path>
+                    <path d="M336.035239,52.1334978 L383.231158,79.3820744 L383.231158,133.879227 L336.035239,161.127804 L288.83932,133.879227 L288.83932,79.3820744 L336.035239,52.1334978 Z" id="Polygon-Copy-3" stroke="#C7D1D5" stroke-width="2" fill="none"></path>
+                    <path d="M506.814209,327.419003 L554.010128,354.66758 L554.010128,409.164733 L506.814209,436.413309 L459.61829,409.164733 L459.61829,354.66758 L506.814209,327.419003 Z" id="Polygon-Copy-7" stroke="#C7D1D5" stroke-width="2" fill="none"></path>
+                    <path d="M98.9838313,133.699573 L146.17975,160.94815 L146.17975,215.445303 L98.9838313,242.69388 L51.7879123,215.445303 L51.7879123,160.94815 L98.9838313,133.699573 Z" id="Polygon-Copy-4" stroke="#C7D1D5" stroke-width="2" fill="none"></path>
+                    <path d="M288.828918,276.440206 L318.365264,293.493023 L318.365264,327.598657 L288.828918,344.651474 L259.292573,327.598657 L259.292573,293.493023 L288.828918,276.440206 Z" id="Polygon-Copy" stroke="#C7D1D5" stroke-width="2" fill="none"></path>
+                    <path d="M193.422593,276.440206 L210.817982,286.483438 L210.817982,306.569903 L193.422593,316.613136 L176.027204,306.569903 L176.027204,286.483438 L193.422593,276.440206 Z" id="Polygon-Copy-6" stroke="#C7D1D5" stroke-width="2" fill="none"></path>
+                    <path d="M365.900857,334.216176 L383.296246,344.259408 L383.296246,364.345873 L365.900857,374.389106 L348.505468,364.345873 L348.505468,344.259408 L365.900857,334.216176 Z" id="Polygon-Copy-8" stroke="#C7D1D5" stroke-width="2" fill="none"></path>
+                    <path d="M506.338453,226.311055 L535.874799,243.363872 L535.874799,277.469506 L506.338453,294.522324 L476.802108,277.469506 L476.802108,243.363872 L506.338453,226.311055 Z" id="Polygon-Copy-2" stroke="#C7D1D5" stroke-width="2" fill="none"></path>
+                    <path d="M459.607889,1.15470054 L489.144235,18.2075177 L489.144235,52.3131519 L459.607889,69.365969 L430.071544,52.3131519 L430.071544,18.2075177 L459.607889,1.15470054 Z" id="Polygon-Copy-5" stroke="#C7D1D5" stroke-width="2" fill="none"></path>
+                    <g id="Group-6" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(429.921190, 130.845580)">
+                        <circle id="Oval-3" fill="#C7D1D5" cx="46.7305641" cy="3.39858648" r="3.39858648"></circle>
+                        <rect id="Rectangle-25" fill="#C7D1D5" transform="translate(23.970921, 16.879101) rotate(60.000000) translate(-23.970921, -16.879101) " x="23.1212745" y="-10.3095905" width="1.69929324" height="54.3773837"></rect>
+                    </g>
+                    <g id="Group-6-Copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(212.411655, 324.565009)">
+                        <circle id="Oval-3" fill="#C7D1D5" cx="46.7305641" cy="3.39858648" r="3.39858648"></circle>
+                        <rect id="Rectangle-25" fill="#C7D1D5" transform="translate(23.970921, 16.879101) rotate(60.000000) translate(-23.970921, -16.879101) " x="23.1212745" y="-10.3095905" width="1.69929324" height="54.3773837"></rect>
+                    </g>
+                    <circle id="Oval-3" stroke="none" fill="#C7D1D5" fill-rule="evenodd" transform="translate(318.617483, 327.113949) scale(-1, 1) translate(-318.617483, -327.113949) " cx="318.617483" cy="327.113949" r="3.39858648"></circle>
+                    <rect id="Rectangle-25" stroke="none" fill="#C7D1D5" fill-rule="evenodd" transform="translate(334.608264, 336.346231) scale(-1, 1) rotate(60.000000) translate(-334.608264, -336.346231) " x="333.758617" y="319.353298" width="1.69929324" height="33.9858648"></rect>
+                    <g id="Group-6-Copy-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(5.097880, 212.411655)">
+                        <circle id="Oval-3" fill="#C7D1D5" cx="46.7305641" cy="3.39858648" r="3.39858648"></circle>
+                        <rect id="Rectangle-25" fill="#C7D1D5" transform="translate(23.970921, 16.879101) rotate(60.000000) translate(-23.970921, -16.879101) " x="23.1212745" y="-10.3095905" width="1.69929324" height="54.3773837"></rect>
+                    </g>
+                    <rect id="Rectangle-25" stroke="none" fill="#C7D1D5" fill-rule="evenodd" transform="translate(406.311901, 66.158605) rotate(60.000000) translate(-406.311901, -66.158605) " x="405.462254" y="38.9699135" width="1.69929324" height="54.3773837"></rect>
+                    <rect id="Rectangle-25-Copy-2" stroke="none" fill="#C7D1D5" fill-rule="evenodd" transform="translate(453.892111, 230.140403) scale(-1, 1) rotate(60.000000) translate(-453.892111, -230.140403) " x="453.042465" y="202.951711" width="1.69929324" height="54.3773837"></rect>
+                    <rect id="Rectangle-25-Copy-3" stroke="none" fill="#C7D1D5" fill-rule="evenodd" transform="translate(264.420915, 229.290757) scale(-1, 1) rotate(60.000000) translate(-264.420915, -229.290757) " x="263.571268" y="202.102065" width="1.69929324" height="54.3773837"></rect>
+                    <rect id="Rectangle-25-Copy-4" stroke="none" fill="#C7D1D5" fill-rule="evenodd" transform="translate(169.079678, 229.290757) scale(-1, 1) rotate(60.000000) translate(-169.079678, -229.290757) " x="168.230031" y="202.102065" width="1.69929324" height="54.3773837"></rect>
+                    <rect id="Rectangle-25-Copy" stroke="none" fill="#C7D1D5" fill-rule="evenodd" transform="translate(312.001126, 230.140403) rotate(60.000000) translate(-312.001126, -230.140403) " x="311.151479" y="202.951711" width="1.69929324" height="54.3773837"></rect>
+                    <rect id="Rectangle-25-Copy-6" stroke="none" fill="#C7D1D5" fill-rule="evenodd" transform="translate(216.659888, 230.140403) rotate(60.000000) translate(-216.659888, -230.140403) " x="215.810242" y="202.951711" width="1.69929324" height="54.3773837"></rect>
+                    <rect id="Rectangle-25" stroke="none" fill="#C7D1D5" fill-rule="evenodd" transform="translate(506.389386, 311.820310) scale(-1, 1) translate(-506.389386, -311.820310) " x="505.539739" y="295.677024" width="1.69929324" height="32.2865716"></rect>
+                    <circle id="Oval-3-Copy" stroke="none" fill="#C7D1D5" fill-rule="evenodd" cx="506.389386" cy="293.977731" r="3.39858648"></circle>
+                    <circle id="Oval-3-Copy-5" stroke="none" fill="#C7D1D5" fill-rule="evenodd" cx="506.389386" cy="327.963596" r="3.39858648"></circle>
+                    <circle id="Oval-3-Copy-4" stroke="none" fill="#00AAF9" fill-rule="evenodd" cx="429.92119" cy="20.3915189" r="5.09787973"></circle>
+                    <circle id="Oval-3-Copy-6" stroke="none" fill="#00AAF9" fill-rule="evenodd" cx="211.562009" cy="354.302641" r="5.09787973"></circle>
+                    <circle id="Oval-3-Copy-7" stroke="none" fill="#00AAF9" fill-rule="evenodd" cx="5.09787973" cy="243.84858" r="5.09787973"></circle>
+                    <circle id="Oval-3-Copy-12" stroke="none" fill="#C7D1D5" fill-rule="evenodd" cx="383.190626" cy="79.0171357" r="5.09787973"></circle>
+                    <circle id="Oval-3-Copy-8" stroke="none" fill="#00AAF9" fill-rule="evenodd" cx="429.071544" cy="217.509535" r="5.09787973"></circle>
+                    <circle id="Oval-3-Copy-9" stroke="none" fill="#00AAF9" fill-rule="evenodd" cx="288.879851" cy="133.394519" r="5.09787973"></circle>
+                    <circle id="Oval-3-Copy-10" stroke="none" fill="#00AAF9" fill-rule="evenodd" cx="240.449994" cy="216.659888" r="5.09787973"></circle>
+                    <circle id="Oval-3-Copy-11" stroke="none" fill="#00AAF9" fill-rule="evenodd" cx="553.11995" cy="409.529671" r="5.09787973"></circle>
+                    <g id="Group-8" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(189.471196, 239.600347)">
+                        <rect id="Rectangle-25-Copy-5" fill="#C7D1D5" transform="translate(4.067417, 21.241166) scale(-1, 1) translate(-4.067417, -21.241166) " x="3.2177707" y="5.09787973" width="1.69929324" height="32.2865716"></rect>
+                        <circle id="Oval-3-Copy-2" fill="#C7D1D5" cx="4.06741733" cy="3.39858648" r="3.39858648"></circle>
+                    </g>
+                    <g id="Group-8-Copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(284.631618, 239.600347)">
+                        <rect id="Rectangle-25-Copy-5" fill="#C7D1D5" transform="translate(4.067417, 21.241166) scale(-1, 1) translate(-4.067417, -21.241166) " x="3.2177707" y="5.09787973" width="1.69929324" height="32.2865716"></rect>
+                        <circle id="Oval-3-Copy-2" fill="#C7D1D5" cx="4.06741733" cy="3.39858648" r="3.39858648"></circle>
+                    </g>
+                </g>
+            </g>
+            <g id="Group-9-Copy" opacity="0.100000001" mask="url(#mask-3)">
+                <g transform="translate(837.251878, 358.820467) rotate(206.000000) translate(-837.251878, -358.820467) translate(541.251878, 126.820467)">
+                    <path d="M405.8381,142.589954 L455.939165,171.515817 L455.939165,229.367544 L405.8381,258.293408 L355.737035,229.367544 L355.737035,171.515817 L405.8381,142.589954 Z" id="Polygon" stroke="#C7D1D5" stroke-width="2" fill="none"></path>
+                    <path d="M356.290718,55.2063898 L406.391783,84.1322532 L406.391783,141.98398 L356.290718,170.909844 L306.189653,141.98398 L306.189653,84.1322532 L356.290718,55.2063898 Z" id="Polygon-Copy-3" stroke="#C7D1D5" stroke-width="2" fill="none"></path>
+                    <path d="M537.363877,347.085512 L587.464942,376.011375 L587.464942,433.863102 L537.363877,462.788965 L487.262812,433.863102 L487.262812,376.011375 L537.363877,347.085512 Z" id="Polygon-Copy-7" stroke="#C7D1D5" stroke-width="2" fill="none"></path>
+                    <path d="M104.950363,141.689093 L155.051428,170.614956 L155.051428,228.466683 L104.950363,257.392546 L54.8492981,228.466683 L54.8492981,170.614956 L104.950363,141.689093 Z" id="Polygon-Copy-4" stroke="#C7D1D5" stroke-width="2" fill="none"></path>
+                    <path d="M306.238903,293.033822 L337.615914,311.149348 L337.615914,347.380399 L306.238903,365.495925 L274.861892,347.380399 L274.861892,311.149348 L306.238903,293.033822 Z" id="Polygon-Copy" stroke="#C7D1D5" stroke-width="2" fill="none"></path>
+                    <path d="M205.08169,293.033822 L223.585913,303.717241 L223.585913,325.084077 L205.08169,335.767496 L186.577466,325.084077 L186.577466,303.717241 L205.08169,293.033822 Z" id="Polygon-Copy-6" stroke="#C7D1D5" stroke-width="2" fill="none"></path>
+                    <path d="M387.956572,354.292404 L406.460795,364.975822 L406.460795,386.342659 L387.956572,397.026077 L369.452348,386.342659 L369.452348,364.975822 L387.956572,354.292404 Z" id="Polygon-Copy-8" stroke="#C7D1D5" stroke-width="2" fill="none"></path>
+                    <path d="M536.859444,239.882995 L568.236454,257.99852 L568.236454,294.229571 L536.859444,312.345097 L505.482433,294.229571 L505.482433,257.99852 L536.859444,239.882995 Z" id="Polygon-Copy-2" stroke="#C7D1D5" stroke-width="2" fill="none"></path>
+                    <path d="M487.312062,1.15470054 L518.689073,19.2702261 L518.689073,55.5012773 L487.312062,73.6168029 L455.935051,55.5012773 L455.935051,19.2702261 L487.312062,1.15470054 Z" id="Polygon-Copy-5" stroke="#C7D1D5" stroke-width="2" fill="none"></path>
+                    <g id="Group-6" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(455.835913, 138.732669)">
+                        <circle id="Oval-3" fill="#C7D1D5" cx="49.5473818" cy="3.60344595" r="3.60344595"></circle>
+                        <rect id="Rectangle-25" fill="#C7D1D5" transform="translate(25.415837, 17.896537) rotate(60.000000) translate(-25.415837, -17.896537) " x="24.5149751" y="-10.9310304" width="1.80172297" height="57.6551352"></rect>
+                    </g>
+                    <g id="Group-6-Copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(225.215372, 344.129088)">
+                        <circle id="Oval-3" fill="#C7D1D5" cx="49.5473818" cy="3.60344595" r="3.60344595"></circle>
+                        <rect id="Rectangle-25" fill="#C7D1D5" transform="translate(25.415837, 17.896537) rotate(60.000000) translate(-25.415837, -17.896537) " x="24.5149751" y="-10.9310304" width="1.80172297" height="57.6551352"></rect>
+                    </g>
+                    <circle id="Oval-3" stroke="none" fill="#C7D1D5" fill-rule="evenodd" transform="translate(337.823058, 346.831673) scale(-1, 1) translate(-337.823058, -346.831673) " cx="337.823058" cy="346.831673" r="3.60344595"></circle>
+                    <rect id="Rectangle-25" stroke="none" fill="#C7D1D5" fill-rule="evenodd" transform="translate(354.777729, 356.620456) scale(-1, 1) rotate(60.000000) translate(-354.777729, -356.620456) " x="353.876867" y="338.603227" width="1.80172297" height="36.0344595"></rect>
+                    <g id="Group-6-Copy-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(5.405169, 225.215372)">
+                        <circle id="Oval-3" fill="#C7D1D5" cx="49.5473818" cy="3.60344595" r="3.60344595"></circle>
+                        <rect id="Rectangle-25" fill="#C7D1D5" transform="translate(25.415837, 17.896537) rotate(60.000000) translate(-25.415837, -17.896537) " x="24.5149751" y="-10.9310304" width="1.80172297" height="57.6551352"></rect>
+                    </g>
+                    <rect id="Rectangle-25" stroke="none" fill="#C7D1D5" fill-rule="evenodd" transform="translate(430.803506, 70.146503) rotate(60.000000) translate(-430.803506, -70.146503) " x="429.902644" y="41.3189359" width="1.80172297" height="57.6551352"></rect>
+                    <rect id="Rectangle-25-Copy-2" stroke="none" fill="#C7D1D5" fill-rule="evenodd" transform="translate(481.251749, 244.012770) scale(-1, 1) rotate(60.000000) translate(-481.251749, -244.012770) " x="480.350888" y="215.185203" width="1.80172297" height="57.6551352"></rect>
+                    <rect id="Rectangle-25-Copy-3" stroke="none" fill="#C7D1D5" fill-rule="evenodd" transform="translate(280.359638, 243.111909) scale(-1, 1) rotate(60.000000) translate(-280.359638, -243.111909) " x="279.458776" y="214.284341" width="1.80172297" height="57.6551352"></rect>
+                    <rect id="Rectangle-25-Copy-4" stroke="none" fill="#C7D1D5" fill-rule="evenodd" transform="translate(179.271436, 243.111909) scale(-1, 1) rotate(60.000000) translate(-179.271436, -243.111909) " x="178.370574" y="214.284341" width="1.80172297" height="57.6551352"></rect>
+                    <rect id="Rectangle-25-Copy" stroke="none" fill="#C7D1D5" fill-rule="evenodd" transform="translate(330.807881, 244.012770) rotate(60.000000) translate(-330.807881, -244.012770) " x="329.907019" y="215.185203" width="1.80172297" height="57.6551352"></rect>
+                    <rect id="Rectangle-25-Copy-6" stroke="none" fill="#C7D1D5" fill-rule="evenodd" transform="translate(229.719679, 244.012770) rotate(60.000000) translate(-229.719679, -244.012770) " x="228.818818" y="215.185203" width="1.80172297" height="57.6551352"></rect>
+                    <rect id="Rectangle-25" stroke="none" fill="#C7D1D5" fill-rule="evenodd" transform="translate(536.913446, 330.616166) scale(-1, 1) translate(-536.913446, -330.616166) " x="536.012585" y="313.499798" width="1.80172297" height="34.2327365"></rect>
+                    <circle id="Oval-3-Copy" stroke="none" fill="#C7D1D5" fill-rule="evenodd" cx="536.913446" cy="311.698075" r="3.60344595"></circle>
+                    <circle id="Oval-3-Copy-5" stroke="none" fill="#C7D1D5" fill-rule="evenodd" cx="536.913446" cy="347.732534" r="3.60344595"></circle>
+                    <circle id="Oval-3-Copy-4" stroke="none" fill="#00AAF9" fill-rule="evenodd" cx="455.835913" cy="21.6206757" r="5.40516892"></circle>
+                    <circle id="Oval-3-Copy-6" stroke="none" fill="#00AAF9" fill-rule="evenodd" cx="224.31451" cy="375.65924" r="5.40516892"></circle>
+                    <circle id="Oval-3-Copy-7" stroke="none" fill="#00AAF9" fill-rule="evenodd" cx="5.40516892" cy="258.547247" r="5.40516892"></circle>
+                    <circle id="Oval-3-Copy-12" stroke="none" fill="#C7D1D5" fill-rule="evenodd" cx="406.288531" cy="83.7801183" r="5.40516892"></circle>
+                    <circle id="Oval-3-Copy-8" stroke="none" fill="#00AAF9" fill-rule="evenodd" cx="454.935051" cy="230.620541" r="5.40516892"></circle>
+                    <circle id="Oval-3-Copy-9" stroke="none" fill="#00AAF9" fill-rule="evenodd" cx="306.292906" cy="141.435254" r="5.40516892"></circle>
+                    <circle id="Oval-3-Copy-10" stroke="none" fill="#00AAF9" fill-rule="evenodd" cx="254.943801" cy="229.719679" r="5.40516892"></circle>
+                    <circle id="Oval-3-Copy-11" stroke="none" fill="#00AAF9" fill-rule="evenodd" cx="586.460828" cy="434.215237" r="5.40516892"></circle>
+                    <g id="Group-8" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(200.892112, 254.042939)">
+                        <rect id="Rectangle-25-Copy-5" fill="#C7D1D5" transform="translate(4.312592, 22.521537) scale(-1, 1) translate(-4.312592, -22.521537) " x="3.41173098" y="5.40516892" width="1.80172297" height="34.2327365"></rect>
+                        <circle id="Oval-3-Copy-2" fill="#C7D1D5" cx="4.31259247" cy="3.60344595" r="3.60344595"></circle>
+                    </g>
+                    <g id="Group-8-Copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(301.788598, 254.042939)">
+                        <rect id="Rectangle-25-Copy-5" fill="#C7D1D5" transform="translate(4.312592, 22.521537) scale(-1, 1) translate(-4.312592, -22.521537) " x="3.41173098" y="5.40516892" width="1.80172297" height="34.2327365"></rect>
+                        <circle id="Oval-3-Copy-2" fill="#C7D1D5" cx="4.31259247" cy="3.60344595" r="3.60344595"></circle>
+                    </g>
+                </g>
+            </g>
+            <path d="M586,460 C845.006912,460 778.28599,357.025492 778.28599,230 C778.28599,102.974508 692.19662,0 586,0 C479.80338,0 393.71401,102.974508 393.71401,230 C393.71401,357.025492 326.993088,460 586,460 Z" id="Oval-4" fill="#FFFFFF" opacity="0.200000003" filter="url(#filter-36)" mask="url(#mask-3)"></path>
+        </g>
+    </g>
+</svg>

@@ -4,101 +4,254 @@ Template Name: Materials
 */
 get_header(); ?>
 
-<header id="front-hero" role="banner">
-	<div class="marketing">
-		<div class="tagline">
-			<h1><?php bloginfo( 'name' ); ?></h1>
-			<h4 class="subheader"><?php bloginfo( 'description' ); ?></h4>
-			<a role="button" class="download large button sites-button hide-for-small-only" href="https://github.com/olefredrik/foundationpress">Download FoundationPress</a>
-		</div>
-
-		<div id="watch">
-			<section id="stargazers">
-				<a href="https://github.com/olefredrik/foundationpress">1.5k stargazers</a>
-			</section>
-			<section id="twitter">
-				<a href="https://twitter.com/olefredrik">@olefredrik</a>
-			</section>
-		</div>
-	</div>
-
-</header>
-
-<?php do_action( 'foundationpress_before_content' ); ?>
-<?php while ( have_posts() ) : the_post(); ?>
-<section class="intro" role="main">
-	<div class="fp-intro">
-
-		<div <?php post_class() ?> id="post-<?php the_ID(); ?>">
-			<?php do_action( 'foundationpress_page_before_entry_content' ); ?>
-			<div class="entry-content">
-				<?php the_content(); ?>
-			</div>
-			<footer>
-				<?php
-					wp_link_pages(
-						array(
-							'before' => '<nav id="page-nav"><p>' . __( 'Pages:', 'foundationpress' ),
-							'after'  => '</p></nav>',
-						)
-					);
-				?>
-				<p><?php the_tags(); ?></p>
-			</footer>
-			<?php do_action( 'foundationpress_page_before_comments' ); ?>
-			<?php comments_template(); ?>
-			<?php do_action( 'foundationpress_page_after_comments' ); ?>
-		</div>
-
-	</div>
-
-</section>
-<?php endwhile;?>
-<?php do_action( 'foundationpress_after_content' ); ?>
-
-<div class="section-divider">
-	<hr />
-</div>
-
-
-<section class="benefits">
-	<header>
-		<h2>Build Foundation based sites, powered by WordPress</h2>
-		<h4>Foundation is the professional choice for designers, developers and teams. <br /> WordPress is by far, <a href="http://trends.builtwith.com/cms">the world's most popular CMS</a> (currently powering 38% of the web).</h4>
-	</header>
-
-	<div class="semantic">
-		<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/semantic.svg" alt="semantic">
-		<h3>Semantic</h3>
-		<p>Everything is semantic. You can have the cleanest markup without sacrificing the utility and speed of Foundation.</p>
-	</div>
-
-	<div class="responsive">
-		<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/responsive.svg" alt="responsive">
-		<h3>Responsive</h3>
-		<p>You can build for small devices first. Then, as devices get larger and larger, layer in more complexity for a complete responsive design.</p>
-
-	</div>
-
-	<div class="customizable">
-		<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/customizable.svg" alt="customizable">
-		<h3>Customizable</h3>
-		<p>You can customize your build to include or remove certain elements, as well as define the size of columns, colors, font size and more.</p>
-
-	</div>
-
-	<div class="professional">
-		<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/professional.svg" alt="professional">
-		<h3>Professional</h3>
-		<p>Millions of designers and developers depend on Foundation. We have business support, training and consulting to help grow your product or service.</p>
-	</div>
-
-	<div class="why-foundation">
-		<a href="/kitchen-sink">See what's in Foundation out of the box →</a>
-	</div>
-
+<section class="materials-hero">
+  <div class="materials-hero__container">
+    <header>
+      <div class="materials-hero__content text-center">
+        <h5></h5>
+        <h1><span class="is-text-blue">Choice makes the best decisions</span></h1> 
+        <h5>Discover Zortrax Materials</h5>
+      </div>
+    </div>
+  </header>
 </section>
 
+<!-- zultrat -->
+<section class="materials-section zultrat">
+  <div class="materials-section__container">
+    <div class="materials-section__content">
+      <h1>Z-ULTRAT</h1>
+      <h3>STRENGTH + DURABILITY.</h3>
+      <p>Meet Z-ULTRAT, the versatile materials that lets you prototype models with features of products manufactured using injection molding technology, all in-house. The strong, stable, and time-resistant material is available in a wide range of colors. Try out your project before mass production - test its functionality and post-process it chemically or mechanically.</p>
+    </div>
+    <div class="materials-section__image">
+      <div class="materials-section__image-container">
+        <img class="" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/3dproshare/zultrat.png" alt="responsive">
+      </div>
+    </div>
+  </div>
+</section>
+<section class="materials-section__applications zultrat">
+    <div class="materials-section__container zultrat">
+      <div class="materials-section__applications-image">
+        <img class="" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/3dproshare/zultrat-app.png" alt="responsive">
+      </div>
+      <div class="materials-section__applications-content">
+      <h1>Applications</h1>
+        <ul>
+          <li>functional prototypes</li>
+          <li>end-use parts</li>
+          <li>casing prototypes for testing</li>
+          <li>end-use casing parts for low volume production</li>
+          <li>prototypes of consumer products </li>
+          <li>mechanical parts</li>
+          <li>parts simulating properties of elements made in injection molding</li>
+          <li>elements required to be durable and stable over time</li>
+        </ul>
+        <div class="hero-button">
+          <a href="" class="button primary">Buy Now</a>
+        </div>
+      </div>
+    </div>
+    <div class="materials-section__container">
+      <div class="materials-section__availability-colors">
+        <div class="materials-section__availability">
+          <h2>Available for</h2>
+          <ul>
+            <li><h4>Zortrax M200</h4></li>
+          </ul>
+        </div>
+        <div class="materials-section__colors">
+          <h2>Colors</h2>
+          <div class="row">
+            <div class="small-6 medium-3 columns">
+              <div class="color-set">
+                <h4>Basics</h4>
+                  <ul>
+                    <li>Blue</li>
+                    <li>Yellow</li>
+                    <li>Green</li>
+                    <li>Grey</li>
+                    <li>Ivory</li>
+                    <li>Black</li>
+                    <li>Red</li>
+                  </ul>
+              </div>
+            </div>
+            <div class="small-6 medium-3 columns">
+              <div class="color-set">
+                <h4>Neutrals</h4>
+                <ul>
+                  <li>Nude</li>
+                  <li>Magenta</li>
+                  <li>Olive</li>
+                  <li>Brown</li>
+                </ul>
+              </div>
+            </div>
+            <div class="small-6 medium-3 columns">
+              <div class="color-set">
+                <h4>Neons</h4>
+                <ul>
+                  <li>Neon Blue</li>
+                  <li>Neon Green</li>
+                  <li>Neon Yellow</li>
+                  <li>Neon Orange</li>
+                  <li>Neon Red</li>
+                  <li>Neon Pink</li>
+                </ul>
+              </div>
+            </div>
+            <div class="small-6 medium-3 columns">
+              <div class="color-set">
+                <h4>Pastels</h4>
+                <ul>
+                  <li>Pastel Yellow</li>
+                  <li>Pastel Pink</li>
+                  <li>Pastel Purple</li>
+                  <li>Pastel Blue</li>
+                  <li>Pastel Turquoise</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
 
+<!-- zhips -->
+<section class="materials-section zhips">
+  <div class="materials-section__container">
+    <div class="materials-section__content">
+      <h1>Z-HIPS</h1>
+      <h3>THE FACTOR OF ABILITIES.</h3>
+      <p>Expose your idea in a way it deserves. Use Z-HIPS to singificantly reduce warping and visibly shorten the time you’re spending on post-processing. The material has a unique mat structure that absorbs light and reduces the visibility of minor flaws. It’s great for printing bigger part, housing or architectural prototypes.</p>
+    </div>
+    <div class="materials-section__image">
+      <div class="materials-section__image-container">
+        <img class="" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/3dproshare/zhips.png" alt="responsive">
+      </div>
+    </div>
+  </div>
+</section>
+<section class="materials-section__applications zhips">
+    <div class="materials-section__container zhips">
+      <div class="materials-section__applications-image">
+        <img class="" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/3dproshare/zhips-app.png" alt="responsive">
+      </div>
+      <div class="materials-section__applications-content">
+      <h1>Applications</h1>
+        <ul>
+          <li>models with large, flat surfaces</li>
+          <li>architecture mockups</li>
+          <li>casing elements for testing</li>
+          <li>end-use casing parts for low volume production</li>
+          <li>prototypes of consumer products</li>
+          <li>prototypes of mechanical parts</li>
+        </ul>
+        <div class="hero-button">
+          <a href="" class="button primary">Buy Now</a>
+        </div>
+      </div>
+    </div>
+    <div class="materials-section__container">
+      <div class="materials-section__availability-colors">
+        <div class="materials-section__availability">
+          <h2>Available for</h2>
+          <ul>
+            <li><h4>Zortrax M200</h4></li>
+            <li><h4>Zortrax M300</h4></li>
+          </ul>
+        </div>
+        <div class="materials-section__colors">
+          <h2>Colors</h2>
+          <div class="row">
+            <div class="small-6 medium-3 columns">
+              <div class="color-set">
+                <h4>Basics</h4>
+                  <ul>
+                    <li>Natural White</li>
+                    <li>Blue</li>
+                    <li>Yellow</li>
+                    <li>Green</li>
+                    <li>Grey</li>
+                    <li>Black</li>
+                    <li>Red</li>
+                  </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+
+<!-- zglass -->
+<section class="materials-section zglass">
+  <div class="materials-section__container">
+    <div class="materials-section__content">
+      <h1>Z-GLASS</h1>
+      <h3>THE FACTOR OF ABILITIES.</h3>
+      <p>Expose your idea in a way it deserves. Use Z-HIPS to singificantly reduce warping and visibly shorten the time you’re spending on post-processing. The material has a unique mat structure that absorbs light and reduces the visibility of minor flaws. It’s great for printing bigger part, housing or architectural prototypes.</p>
+    </div>
+    <div class="materials-section__image">
+      <div class="materials-section__image-container">
+        <img class="" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/3dproshare/zglass.png" alt="responsive">
+      </div>
+    </div>
+  </div>
+</section>
+<section class="materials-section__applications zglass">
+    <div class="materials-section__container zglass">
+      <div class="materials-section__applications-image">
+        <img class="" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/3dproshare/zglass-app.png" alt="responsive">
+      </div>
+      <div class="materials-section__applications-content">
+      <h1>Applications</h1>
+        <ul>
+          <li>models with large, flat surfaces</li>
+          <li>architecture mockups</li>
+          <li>casing elements for testing</li>
+          <li>end-use casing parts for low volume production</li>
+          <li>prototypes of consumer products</li>
+          <li>prototypes of mechanical parts</li>
+        </ul>
+        <div class="hero-button">
+          <a href="" class="button primary">Buy Now</a>
+        </div>
+      </div>
+    </div>
+    <div class="materials-section__container">
+      <div class="materials-section__availability-colors">
+        <div class="materials-section__availability">
+          <h2>Available for</h2>
+          <ul>
+            <li><h4>Zortrax M200</h4></li>
+            <li><h4>Zortrax M300</h4></li>
+          </ul>
+        </div>
+        <div class="materials-section__colors">
+          <h2>Colors</h2>
+          <div class="row">
+            <div class="small-6 medium-3 columns">
+              <div class="color-set">
+                <h4>Basics</h4>
+                  <ul>
+                    <li>Natural White</li>
+                    <li>Blue</li>
+                    <li>Yellow</li>
+                    <li>Green</li>
+                    <li>Grey</li>
+                    <li>Black</li>
+                    <li>Red</li>
+                  </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
 
 <?php get_footer();

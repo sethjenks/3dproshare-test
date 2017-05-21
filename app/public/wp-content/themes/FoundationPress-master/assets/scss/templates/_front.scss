@@ -1,206 +1,184 @@
-// Page header
-#front-hero {
-  .marketing {
-    @include grid-row();
-    max-width: 55rem;
-  }
+.front-hero{
+  @include grid-row-size(expand);
+  background: url('../images/3dproshare/polygon-bg.png') center center;
+  background-repeat: repeat-x;
+  min-height: 27rem;
+  display: flex;
+  padding: 4rem 0;
+  overflow: hidden;
 
-  @include breakpoint(small) {
-    background: url('../images/demo/hero-bg-foundation-6-small.svg') bottom center;
-    background-size: cover;
-    background-position: bottom;
-    padding: rem-calc(65%) 0;
-    margin: 0 0 rem-calc(32);
-    height: auto;
-    position: relative;
-    text-align: left;
-  }
-
-  @include breakpoint(medium) {
-    background: url('../images/demo/hero-bg-foundation-6-large.svg') bottom center;
-    background-size: cover;
-    background-position: center;
-    height: rem-calc(685);
-    margin: 0 0 rem-calc(72);
-  }
-
-  #watch {
-    @include breakpoint(small) {
-      @include grid-column(7);
-      @include grid-column-position(-5);
-    }
-
-    @include breakpoint(medium) {
-      @include grid-column(12);
-      @include grid-column-position(0);
-    }
-
-    section {
-      display: inline;
-    }
-
-    a {
-      color: #B4C9D1;
-      cursor: pointer;
-      font-weight: 400;
-      margin-right: rem-calc(20);
-    }
-
-    a:hover {
-      color: #fff;
-    }
-
-    #stargazers {
-      :before {
-        content: "\f09b";
-        font-family: FontAwesome;
-        font-style: normal;
-        font-weight: normal;
-        text-decoration: inherit;
-        color: #B4C9D1;
-        margin-right: rem-calc(8);
-      }
-    }
-
-    #twitter {
-      :before {
-        content: "\f099";
-        font-family: FontAwesome;
-        font-style: normal;
-        font-weight: normal;
-        text-decoration: inherit;
-        color: #B4C9D1;
-        margin-right: rem-calc(8);
-      }
-    }
-
-  }
-
-  .tagline {
-    @include breakpoint(small) {
-      @include grid-column(8);
-    }
-
-    @include breakpoint(medium) {
-      @include grid-column(5);
-      padding-top: 6rem;
-    }
-  }
-
-  h1 {
-    color: #fff;
-    font-weight: 500;
-
-    @include breakpoint(small) {
-      font-size: 2.2rem;
-    }
-
-    @include breakpoint(medium) {
-      font-size: 2.875rem;
-    }
-  }
-
-  h4 {
-    color: #fefefe;
-    font-weight: 300;
-    font-size: 1.3125rem;
-  }
-
-  .download {
-    margin-top: rem-calc(20);
+  header{ 
   }
 }
 
-// Intro
-.intro {
+.front-hero__continer{
   @include grid-row();
+  position: relative;
+}
 
-  .fp-intro {
-    @include breakpoint(small) {
-      @include grid-column(12);
-    }
+.front-hero__headline-label{
+  color: map-get($proshare-palette, primary);
+}
 
-    @include breakpoint(medium) {
-      @include grid-column(10);
-      @include grid-column-offset(1);
-
-      h2 {
-        font-weight: 300;
-        margin-bottom: 1.5rem;
-      }
-
-      h4 {
-        font-size: 1.125rem;
-        line-height: 1.6;
-        color: #777;
-        margin-bottom: 2rem;
-      }
-    }
+.front-hero__headline{
+  font-size: rem-calc(64);
+  font-family: Graphie-Bold;
+  color: lighten($black, 10%);
+  margin-bottom: 0;
+  line-height: rem-calc(64);
+  
+  span{
+    font-family: Graphie-Light;
   }
 }
 
-// Section divider
-.section-divider {
-  @include grid-row();
+.front-hero__sub-head{
+  font-size: rem-calc(40);
+  font-family:Graphie-Light;
+  color: lighten($black, 25%);
+  
+  span{
+    font-family:Graphie-SemiBold;
+    text-transform: uppercase;
+  }
+}
 
-  hr {
-    @include grid-column(12);
-    @extend .dotted;
-    box-sizing: border-box;
+.front-hero__content{
+  @include grid-column(7);
+  
+  
+  ul{
+    margin: 0;
+    display:table;
+  }
+
+  ul > li{
+    list-style: none;
+    float: left;
+  
+  }
+
+  ul > li > a{
+  display: inline-block;
+  min-width: rem-calc(320);
+  background-color: transparentize($black, .4);
+  min-height: rem-calc(80);
+  color: $white;
+  margin-bottom: .25rem;
+  border-radius: 4px;
+  padding: 16px 24px;
+  -moz-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+
+}
+
+  ul > li > a:hover{
+  background-image: linear-gradient(90deg, rgba($black,0.1) 3%, rgba($white,0.9) 88%);
+  box-shadow: 4px 4px 8px 0 rgba(0,0,0,0.08);
+  
+}
+
+  .front-hero__link-box-item > p{
+    margin-bottom: 0;
+  }
+
+  .button{
+    margin-bottom: 2rem;
+  }
+}
+
+.front-hero__product-image{
+  @include grid-column(5);
+
+  
+  img{
+    position: absolute;
+    bottom: -5rem;
+    max-width: 50%;
+    
   }
 }
 
 
-// Benefits
-.benefits {
-  @include grid-row();
-  text-align: center;
 
-  header {
-    @include grid-column(12);
+//M300 Section
+.front-m300{
+  @include grid-row-size(expand);
+  background: url('../images/3dproshare/city-bg.png') center center;
+  background-repeat: repeat-x;
+  min-height: 27rem;
+  padding: 4rem 0;
+  color: $white;
+}
 
-    h2 {
-      font-weight: 300;
-    }
 
-    h4 {
-      font-size: 1.125rem;
-      line-height: 1.6;
-      color: #777;
-    }
-  }
+.font-m300__product{
+  @include grid-column(7);
+  
+}
 
-  .semantic,
-  .responsive,
-  .customizable,
-  .professional {
-    @include breakpoint(small) {
-      @include grid-column(12);
-    }
+.font-m300__content{
+  @include grid-column(4);
+  @include grid-column-position(1);
+  
+}
 
-    @include breakpoint(medium) {
-      @include grid-column(3);
-    }
 
-    img {
-      padding: 1.25rem;
-      margin: 1rem auto 0 auto;
-    }
 
-    h3 {
-      color: #0a0a0a;
-      font-weight: 300;
-      font-size: 1.75rem;
-    }
 
-    p {
-      font-size: 0.9375rem;
-    }
-  }
+//Materials Section
 
-  .why-foundation {
-    @include grid-row();
-    @include grid-column(12);
-    margin-top: 4rem;
-  }
+.front-inventure{
+  @include grid-row-size(expand);
+  background: url('../images/3dproshare/dds-bg.svg') center center;
+  background-repeat: repeat-x;
+  min-height: 27rem;
+  display: flex;
+  padding: 4rem 0;
+}
+
+.front-inventure__image{
+  @include grid-column(7);
+  
+}
+.front-inventure__content{
+  @include grid-column(5);
+}
+
+
+//Materials Section
+
+.front-materials{
+  @include grid-row-size(expand);
+  background-color: $black;
+  display: flex;
+}
+
+
+.front-materials__m-series{
+  @include grid-column(6);
+  padding: 4rem 0;
+
+  background-color: darken($black, 10%);
+  color: transparentize($white, .25);
+
+}
+
+.front-materials__inventure-series{
+  @include grid-column(6);
+  padding: 4rem 0;
+  background-color: $black;
+  color: transparentize($white, .25);
+  
+}
+
+
+.front-materials__m-series__image{
+  @include grid-column(4);
+}
+
+.front-materials__m-series__content{
+  @include grid-column(8);
 }

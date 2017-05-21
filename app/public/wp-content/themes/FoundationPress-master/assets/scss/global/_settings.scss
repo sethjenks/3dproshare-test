@@ -60,19 +60,19 @@ $proshare-palette: (
   primary: #00AAF9,
   secondary: #767676,
   success: #3adb76,
-  warning: #ffae00,
-  alert: #cc4b37,
+  warning: #FF9A16,
+  alert: #EC008C,
 );
 $primary-color: #00AAF9;
-$light-gray: #e6e6e6;
-$medium-gray: #cacaca;
-$dark-gray: #8a8a8a;
-$black: #0a0a0a;
-$white: #fefefe;
-$outer-space: #2c3840;
+$outer-space: #353D44;
+$light-gray: #F1F3F6;
+$medium-gray: #C7D1D5;
+$dark-gray: #62686F;
+$black: $outer-space;
+$white: #FAFEFF; 
 $body-background: $white;
 $body-font-color: $black;
-$body-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+$body-font-family: Graphie-Book,-apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
 $body-antialiased: true;
 $global-margin: 1rem;
 $global-padding: 1rem;
@@ -104,8 +104,8 @@ $breakpoint-classes: (small medium large);
 $grid-row-width: $global-width;
 $grid-column-count: 12;
 $grid-column-gutter: (
-  small: 20px,
-  medium: 30px,
+  small: 24px,
+  medium: 32px,
 );
 $grid-column-align-edge: true;
 $block-grid-max: 8;
@@ -122,18 +122,18 @@ $header-lineheight: 1.4;
 $header-margin-bottom: 0.5rem;
 $header-styles: (
   small: (
-    'h1': ('font-size': 24),
-    'h2': ('font-size': 20),
-    'h3': ('font-size': 19),
+    'h1': ('font-size': 32),
+    'h2': ('font-size': 24),
+    'h3': ('font-size': 20),
     'h4': ('font-size': 18),
     'h5': ('font-size': 17),
     'h6': ('font-size': 16),
   ),
   medium: (
-    'h1': ('font-size': 48),
+    'h1': ('font-size': 56),
     'h2': ('font-size': 40),
-    'h3': ('font-size': 31),
-    'h4': ('font-size': 25),
+    'h3': ('font-size': 32),
+    'h4': ('font-size': 24),
     'h5': ('font-size': 20),
     'h6': ('font-size': 16),
   ),

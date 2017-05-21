@@ -1,0 +1,107 @@
+.materials-hero{
+  @include grid-row-size(expand);
+  background: url('../images/3dproshare/materials-hero-bg.png') center center;
+  background-color: $black;
+  background-repeat: repeat-x;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 30rem;
+  padding: $section-padding;
+}
+
+.materials-section{
+  padding: $section-padding;
+  @include grid-row-size(expand);
+  min-height: 30rem;
+  
+  &.zultrat{
+  background: url('../images/3dproshare/polygon-bg.png') center center;
+  }
+  &.zhips{
+  background: url('../images/3dproshare/polygon-bg.png') center center;
+  }
+  &.zglass{
+  background: url('../images/3dproshare/polygon-bg.png') center center;  
+  }
+  &.zpetg{
+  background: url('../images/3dproshare/polygon-bg.png') center center;  
+  }
+  &.zpcabs{
+  background: url('../images/3dproshare/polygon-bg.png') center center;  
+  }
+  &.zabs{
+  background: url('../images/3dproshare/polygon-bg.png') center center;  
+  }
+}
+
+.materials-section__applications{
+  @include grid-row;
+  @include grid-row-size(expand);
+  
+  &.zultrat, &.zhips, &.zglass, &.zpetg, &.zpcabs, &.zabs{
+    background-color: lighten($black, 50%);
+    
+  }
+}
+
+.materials-section__container{
+  @include grid-row();
+  
+   &.zultrat, &.zhips, &.zglass, &.zpetg, &.zpcabs, &.zabs{
+    background-color: lighten($black, 50%);
+    padding-top: 8rem;
+    padding-bottom: 4rem;
+    } 
+}
+
+.materials-section__content{
+  @include grid-column(5);
+  @include grid-column-offset(1);
+  
+}
+
+.materials-section__image{
+  @include grid-column(6);
+  
+}
+
+.materials-section__image-container{
+  position: relative;
+  img{
+    position: absolute;
+    top: 1rem;
+  }
+}
+
+.materials-section__applications-image{
+@include grid-column(6);
+}
+
+.materials-section__applications-content{
+    @include grid-column(6);
+    @include grid-column-offset(-3)
+}
+
+.materials-section__availability-colors{
+  @include grid-row();
+    background-color: lighten($black, 50%);
+    padding-bottom: 4rem;
+}
+
+.materials-section__availability{
+    @include grid-column(4);
+    
+}
+
+.materials-section__colors{
+    @include grid-column(8);
+    
+}
+
+
+.materials-section__colors li,
+.materials-section__availability li{
+  list-style: none;
+  
+} 

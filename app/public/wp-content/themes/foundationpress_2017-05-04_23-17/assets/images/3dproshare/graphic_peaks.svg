@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1024px" height="468px" viewBox="0 0 1024 468" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>graphic_peaks</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="1024" height="468"></rect>
+        <path d="M811.148029,309.543276 L605,223 L488.121282,281.112882 L363,195 L249.657729,255.004732 L177,147 L-43,331 L288,312 L479.5,312 L806.743902,312 L744,347 L1069,305 L891,265 L811.148029,309.543276 Z" id="path-3"></path>
+        <linearGradient x1="50%" y1="0%" x2="66.6687775%" y2="71.4592206%" id="linearGradient-4">
+            <stop stop-color="#000000" offset="0%"></stop>
+            <stop stop-color="#00AAF9" offset="100%"></stop>
+        </linearGradient>
+        <filter x="-7.6%" y="-3.6%" width="115.3%" height="107.3%" filterUnits="objectBoundingBox" id="filter-5">
+            <feGaussianBlur stdDeviation="4" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-9.2%" y="-3.6%" width="118.4%" height="107.3%" filterUnits="objectBoundingBox" id="filter-6">
+            <feGaussianBlur stdDeviation="4" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-5.7%" y="-4.1%" width="111.4%" height="108.2%" filterUnits="objectBoundingBox" id="filter-7">
+            <feGaussianBlur stdDeviation="4" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-6.3%" y="-5.3%" width="112.6%" height="110.6%" filterUnits="objectBoundingBox" id="filter-8">
+            <feGaussianBlur stdDeviation="4" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="M200-landing-page" transform="translate(0.000000, -1866.000000)">
+            <g id="graphic_peaks" transform="translate(0.000000, 1866.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Rectangle" fill="#FFFFFF" xlink:href="#path-1"></use>
+                <rect id="Rectangle-13" fill="#00AAF9" mask="url(#mask-2)" x="0" y="305" width="1024" height="163"></rect>
+                <path d="M884.692308,312 L562.5,312 L308.291339,312 L245.582677,312 L307,342 L-47,322 L47,215 L126.349154,253.75901 L274,195 L326.465409,258.283019 L446,195 L582.547126,288.976552 L739,240 L891.188048,308.059251 L977,256 L1157,306 L827,347 L884.692308,312 Z" id="Combined-Shape" fill="#00AAF9" opacity="0.300000012" mask="url(#mask-2)"></path>
+                <g id="Combined-Shape" mask="url(#mask-2)">
+                    <use fill="#00AAF9" fill-rule="evenodd" xlink:href="#path-3"></use>
+                    <path stroke="#00AAF9" stroke-width="2" d="M891.153504,266.059434 L1063.25553,304.734046 L749.024302,345.34239 L807.231058,312.873315 L810.589318,311 L806.743902,311 L479.5,311 L288,311 L-40.040572,329.828492 L176.789958,148.479322 L248.828007,255.562909 L249.330304,256.309567 L250.125616,255.88852 L362.932284,196.167343 L487.554342,281.936641 L488.039321,282.270421 L488.566493,282.008308 L605.035158,224.099307 L810.760944,310.465321 L811.209929,310.653809 L811.635184,310.416592 L891.153504,266.059434 Z"></path>
+                </g>
+                <polygon id="Triangle-2" fill="url(#linearGradient-4)" opacity="0.100000001" filter="url(#filter-5)" mask="url(#mask-2)" points="175 151 332 374 185 480"></polygon>
+                <polygon id="Triangle-2-Copy" fill="url(#linearGradient-4)" opacity="0.100000001" filter="url(#filter-6)" mask="url(#mask-2)" points="363 197 483.5 282 493.5 528"></polygon>
+                <polygon id="Triangle-2-Copy-2" fill="url(#linearGradient-4)" opacity="0.100000001" filter="url(#filter-7)" mask="url(#mask-2)" points="606 228 816 321 695 520"></polygon>
+                <polygon id="Triangle-2-Copy-3" fill="url(#linearGradient-4)" opacity="0.100000001" filter="url(#filter-8)" mask="url(#mask-2)" points="891 269 1081 309 1026 496"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

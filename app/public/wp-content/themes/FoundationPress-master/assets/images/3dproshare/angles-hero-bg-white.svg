@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1756px" height="793px" viewBox="0 0 1756 793" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>angles-hero-bg-white</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0.51817602%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#E7ECF1" offset="0%"></stop>
+            <stop stop-color="#DFE3E7" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="60.712859%" y1="128.924704%" x2="37.9419395%" y2="55.2687021%" id="linearGradient-2">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#1C252D" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="47.2056851%" y1="0%" x2="37.9419395%" y2="55.2687021%" id="linearGradient-3">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#1C252D" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="angles-hero-bg-white">
+            <rect id="bg-light" fill="url(#linearGradient-1)" x="0" y="0" width="1756" height="793"></rect>
+            <polygon id="Triangle-4" fill="url(#linearGradient-2)" opacity="0.0800000057" points="798 249 806 493 304 493"></polygon>
+            <polygon id="Triangle-4" fill="url(#linearGradient-2)" opacity="0.0800000057" points="646 793 804 492 245 717"></polygon>
+            <polygon id="Triangle-4" fill="url(#linearGradient-2)" opacity="0.0800000057" points="222 156 806 493 2 784"></polygon>
+            <polygon id="Triangle-4" fill="url(#linearGradient-3)" opacity="0.0800000057" points="798 249 290 224 304 493"></polygon>
+            <polygon id="Triangle-4" fill="url(#linearGradient-2)" opacity="0.0800000057" points="222 156 1 793 1 247"></polygon>
+            <polygon id="Triangle-4" fill="url(#linearGradient-3)" opacity="0.0800000057" points="1 124 290 224 304 506"></polygon>
+            <polygon id="Triangle-4" fill="url(#linearGradient-3)" opacity="0.0800000057" points="0 124 681 0 305 506"></polygon>
+            <polygon id="Triangle-4" fill="url(#linearGradient-3)" opacity="0.0800000057" points="0 124 0 780 296 493"></polygon>
+            <polygon id="Triangle-4" fill="url(#linearGradient-3)" opacity="0.0800000057" points="920 793 8 793 795 499"></polygon>
+            <polygon id="Triangle-4" fill="url(#linearGradient-3)" opacity="0.0800000057" points="799 251 294 215 1137 1"></polygon>
+            <polygon id="Triangle-4" fill="url(#linearGradient-3)" opacity="0.0800000057" points="681 0 276 219 1130 3"></polygon>
+            <polygon id="Triangle-4" fill="url(#linearGradient-3)" opacity="0.0800000057" points="798 249 1088 396 1104 26"></polygon>
+            <polygon id="Triangle-4" fill="url(#linearGradient-3)" opacity="0.0800000057" points="798 249 1088 396 804 495"></polygon>
+            <polygon id="Triangle-4" fill="url(#linearGradient-3)" opacity="0.0800000057" points="1158 793 1088 418 803 494"></polygon>
+            <polygon id="Triangle-4" fill="url(#linearGradient-3)" opacity="0.0800000057" points="1158 793 1088 418 1752 348"></polygon>
+            <polygon id="Triangle-4" fill="url(#linearGradient-3)" opacity="0.0800000057" points="1158 793 1088 418 1419 136"></polygon>
+            <polygon id="Triangle-4" fill="url(#linearGradient-3)" opacity="0.0800000057" points="1158 793 799 250 1418 136"></polygon>
+            <polygon id="Triangle-4" fill="url(#linearGradient-3)" opacity="0.0800000057" points="1163 771 1756 530 1419 136"></polygon>
+            <polygon id="Triangle-4" fill="url(#linearGradient-3)" opacity="0.0800000057" points="1756 36 1756 530 1419 136"></polygon>
+            <polygon id="Triangle-4" fill="url(#linearGradient-3)" opacity="0.0800000057" points="1756 36 1142 6 1419 136"></polygon>
+            <polygon id="Triangle-4" fill="url(#linearGradient-3)" opacity="0.0800000057" points="1163 793 1756 552 1756 793"></polygon>
+            <polygon id="Triangle-4" fill="url(#linearGradient-3)" opacity="0.0800000057" points="824 95 1089 419 1419 136"></polygon>
+            <polygon id="Triangle-4" fill="url(#linearGradient-3)" opacity="0.0800000057" points="823 95 1138 1 1420 136"></polygon>
+        </g>
+    </g>
+</svg>

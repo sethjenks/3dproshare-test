@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="112px" height="112px" viewBox="0 0 112 112" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>thickness-white</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="46.5 48 93 73.2310237 46.5 100 0 73.2310237"></polygon>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="93" height="52" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <polygon id="path-3" points="73.5 39 120 64.2310237 73.5 91 27 64.2310237"></polygon>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="93" height="52" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="thickness-white" stroke="#FFFFFF">
+            <g id="Group-2" transform="translate(-19.000000, -2.000000)">
+                <use id="Rectangle-27-Copy" mask="url(#mask-2)" stroke-width="2" stroke-dasharray="11" transform="translate(46.500000, 74.000000) rotate(60.000000) translate(-46.500000, -74.000000) " xlink:href="#path-1"></use>
+                <use id="Rectangle-27-Copy-2" mask="url(#mask-4)" stroke-width="4" stroke-dasharray="4" transform="translate(73.500000, 65.000000) rotate(60.000000) translate(-73.500000, -65.000000) " xlink:href="#path-3"></use>
+                <path d="M100.5,29.1377248 L144.95079,53.2568417 L100.5,78.8461352 L56.0492099,53.2568417 L100.5,29.1377248 Z" id="Rectangle-27-Copy-3" stroke-width="2" transform="translate(100.500000, 54.000000) rotate(60.000000) translate(-100.500000, -54.000000) "></path>
+            </g>
+        </g>
+    </g>
+</svg>
